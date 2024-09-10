@@ -937,7 +937,7 @@
             // B20
             // 
             this.B20.BackColor = System.Drawing.Color.ForestGreen;
-            this.B20.Location = new System.Drawing.Point(620, 47);
+            this.B20.Location = new System.Drawing.Point(652, 47);
             this.B20.Name = "B20";
             this.B20.Size = new System.Drawing.Size(43, 38);
             this.B20.TabIndex = 90;
