@@ -158,6 +158,8 @@ namespace MindSweeper
             B49.Text = "M";
             B49.BackColor = Color.Red;
             EndTmr.Enabled = true;
+            this.BackColor = Color.Red;
+
         }
 
         private void B2_Click(object sender, EventArgs e)
@@ -264,6 +266,7 @@ namespace MindSweeper
             B49.Text = "M";
             B49.BackColor = Color.Red;
             EndTmr.Enabled = true;
+            this.BackColor = Color.Red;
 
 
         }
@@ -345,6 +348,7 @@ namespace MindSweeper
             B49.Text = "M";
             B49.BackColor = Color.Red;
             EndTmr.Enabled = true;
+            this.BackColor = Color.Red;
 
         }
 
@@ -391,6 +395,7 @@ namespace MindSweeper
             B49.Text = "M";
             B49.BackColor = Color.Red;
             EndTmr.Enabled = true;
+            this.BackColor = Color.Red;
 
 
         }
@@ -450,6 +455,7 @@ namespace MindSweeper
             B49.Text = "M";
             B49.BackColor = Color.Red;
             EndTmr.Enabled = true;
+            this.BackColor = Color.Red;
 
 
         }
@@ -587,6 +593,7 @@ namespace MindSweeper
             B23.Text = "M";
             B23.BackColor = Color.Red;
             EndTmr.Enabled = true;
+            this.BackColor = Color.Red;
 
         }
 
@@ -727,6 +734,7 @@ namespace MindSweeper
             B49.Text = "M";
             B49.BackColor = Color.Red;
             EndTmr.Enabled = true;
+            this.BackColor = Color.Red;
 
         }
 
@@ -930,6 +938,7 @@ namespace MindSweeper
             B23.Text = "M";
             B23.BackColor = Color.Red;
             EndTmr.Enabled = true;
+            this.BackColor = Color.Red;
 
 
         }
@@ -1001,8 +1010,140 @@ namespace MindSweeper
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            this.Close();
-            B1.Visible = false;
+            Resetbtn1.BackColor = Color.Green;
+            Greentmr.Enabled = true;
+            EndTmr.Enabled = false;
+            
+        }
+
+        private void Resetbtn1_Click(object sender, EventArgs e)
+        {
+            B17.Text = "";
+            B65.Text = "";
+            B27.Text = "";
+            B100.Text = "";
+            B38.Text = "";
+            B64.Text = "";
+            B23.Text = "";
+            B49.Text = "";
+            Resetbtn1.BackColor= Color.Gray;
+            Greentmr.Enabled=false;
+            GreyTimer.Enabled=false;
+            this.BackColor = Color.White;
+            B1.BackColor = Color.Green;
+            B2.BackColor = Color.Green;
+            B3.BackColor = Color.Green;
+            B4.BackColor = Color.Green;
+            B5.BackColor = Color.Green;
+            B6.BackColor = Color.Green;
+            B7.BackColor = Color.Green;
+            B8.BackColor = Color.Green;
+            B9.BackColor = Color.Green;
+            B10.BackColor = Color.Green;
+            B11.BackColor = Color.Green;
+            B12.BackColor = Color.Green;
+            B13.BackColor = Color.Green;
+            B14.BackColor = Color.Green;
+            B15.BackColor = Color.Green;
+            B16.BackColor = Color.Green;
+            B17.BackColor = Color.Green;
+            B18.BackColor = Color.Green;
+            B19.BackColor = Color.Green;
+            B20.BackColor = Color.Green;
+            B21.BackColor = Color.Green;
+            B22.BackColor = Color.Green;
+            B23.BackColor = Color.Green;
+            B24.BackColor = Color.Green;
+            B25.BackColor = Color.Green;
+            B26.BackColor = Color.Green;
+            B27.BackColor = Color.Green;
+            B28.BackColor = Color.Green;
+            B29.BackColor = Color.Green;
+            B30.BackColor = Color.Green;
+            B31.BackColor = Color.Green;
+            B32.BackColor = Color.Green;
+            B33.BackColor = Color.Green;
+            B34.BackColor = Color.Green;
+            B35.BackColor = Color.Green;
+            B36.BackColor = Color.Green;
+            B37.BackColor = Color.Green;
+            B38.BackColor = Color.Green;
+            B39.BackColor = Color.Green;
+            B40.BackColor = Color.Green;
+            B41.BackColor = Color.Green;
+            B42.BackColor = Color.Green;
+            B43.BackColor = Color.Green;
+            B44.BackColor = Color.Green;
+            B45.BackColor = Color.Green;
+            B46.BackColor = Color.Green;
+            B47.BackColor = Color.Green;
+            B48.BackColor = Color.Green;
+            B49.BackColor = Color.Green;
+            B50.BackColor = Color.Green;
+            B51.BackColor = Color.Green;
+            B52.BackColor = Color.Green;
+            B53.BackColor = Color.Green;
+            B54.BackColor = Color.Green;
+            B55.BackColor = Color.Green;
+            B56.BackColor = Color.Green;
+            B57.BackColor = Color.Green;
+            B58.BackColor = Color.Green;
+            B59.BackColor = Color.Green;
+            B60.BackColor = Color.Green;
+            B61.BackColor = Color.Green;
+            B62.BackColor = Color.Green;
+            B63.BackColor = Color.Green;
+            B64.BackColor = Color.Green;
+            B65.BackColor = Color.Green;
+            B66.BackColor = Color.Green;
+            B67.BackColor = Color.Green;
+            B68.BackColor = Color.Green;
+            B69.BackColor = Color.Green;
+            B70.BackColor = Color.Green;
+            B71.BackColor = Color.Green;
+            B72.BackColor = Color.Green;
+            B73.BackColor = Color.Green;
+            B74.BackColor = Color.Green;
+            B75.BackColor = Color.Green;
+            B76.BackColor = Color.Green;
+            B77.BackColor = Color.Green;
+            B78.BackColor = Color.Green;
+            B79.BackColor = Color.Green;
+            B80.BackColor = Color.Green;
+            B81.BackColor = Color.Green;
+            B82.BackColor = Color.Green;
+            B83.BackColor = Color.Green;
+            B84.BackColor = Color.Green;
+            B85.BackColor = Color.Green;
+            B86.BackColor = Color.Green;
+            B87.BackColor = Color.Green;
+            B88.BackColor = Color.Green;
+            B89.BackColor = Color.Green;
+            B90.BackColor = Color.Green;
+            B91.BackColor = Color.Green;
+            B92.BackColor = Color.Green;
+            B93.BackColor = Color.Green;
+            B94.BackColor = Color.Green;
+            B95.BackColor = Color.Green;
+            B96.BackColor = Color.Green;
+            B97.BackColor = Color.Green;
+            B98.BackColor = Color.Green;
+            B99.BackColor = Color.Green;
+            B100.BackColor = Color.Green;
+        }
+
+        private void Greentmr_Tick(object sender, EventArgs e)
+        {
+            Resetbtn1.BackColor = Color.Green;
+            GreyTimer.Enabled = true;
+            Greentmr.Enabled = false;
+        }
+
+        private void GreyTimer_Tick(object sender, EventArgs e)
+        {
+            Resetbtn1.BackColor = Color.Gray;
+            GreyTimer.Enabled = false;
+            Greentmr.Enabled = true;
         }
     }
 }

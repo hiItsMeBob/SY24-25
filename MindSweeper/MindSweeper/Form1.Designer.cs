@@ -132,6 +132,10 @@
             this.RandomNum = new System.Windows.Forms.Button();
             this.NumLable = new System.Windows.Forms.Label();
             this.EndTmr = new System.Windows.Forms.Timer(this.components);
+            this.Resetbtn1 = new System.Windows.Forms.Button();
+            this.RESTARTlabel = new System.Windows.Forms.Label();
+            this.Greentmr = new System.Windows.Forms.Timer(this.components);
+            this.GreyTimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // B21
@@ -1157,11 +1161,40 @@
             this.EndTmr.Interval = 1000;
             this.EndTmr.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // Resetbtn1
+            // 
+            this.Resetbtn1.Location = new System.Drawing.Point(713, 143);
+            this.Resetbtn1.Name = "Resetbtn1";
+            this.Resetbtn1.Size = new System.Drawing.Size(75, 23);
+            this.Resetbtn1.TabIndex = 103;
+            this.Resetbtn1.Text = "Reset ";
+            this.Resetbtn1.UseVisualStyleBackColor = true;
+            this.Resetbtn1.Click += new System.EventHandler(this.Resetbtn1_Click);
+            // 
+            // RESTARTlabel
+            // 
+            this.RESTARTlabel.AutoSize = true;
+            this.RESTARTlabel.Location = new System.Drawing.Point(716, 124);
+            this.RESTARTlabel.Name = "RESTARTlabel";
+            this.RESTARTlabel.Size = new System.Drawing.Size(72, 16);
+            this.RESTARTlabel.TabIndex = 104;
+            this.RESTARTlabel.Text = "RESTART";
+            // 
+            // Greentmr
+            // 
+            this.Greentmr.Tick += new System.EventHandler(this.Greentmr_Tick);
+            // 
+            // GreyTimer
+            // 
+            this.GreyTimer.Tick += new System.EventHandler(this.GreyTimer_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 509);
+            this.Controls.Add(this.RESTARTlabel);
+            this.Controls.Add(this.Resetbtn1);
             this.Controls.Add(this.NumLable);
             this.Controls.Add(this.RandomNum);
             this.Controls.Add(this.B10);
@@ -1376,6 +1409,10 @@
         private System.Windows.Forms.Button RandomNum;
         private System.Windows.Forms.Label NumLable;
         private System.Windows.Forms.Timer EndTmr;
+        private System.Windows.Forms.Button Resetbtn1;
+        private System.Windows.Forms.Label RESTARTlabel;
+        private System.Windows.Forms.Timer Greentmr;
+        private System.Windows.Forms.Timer GreyTimer;
     }
 }
 
