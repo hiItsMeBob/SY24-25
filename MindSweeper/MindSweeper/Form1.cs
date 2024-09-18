@@ -141,6 +141,221 @@ namespace MindSweeper
         private void B64_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B46.Text = "M";
+            B46.BackColor = Color.Red;
+            B87.Text = "M";
+            B87.BackColor = Color.Red;
+            B17.Text = "M";
+            B17.BackColor = Color.Red;
+            B65.Text = "M";
+            B65.BackColor = Color.Red;
+            B27.Text = "M";
+            B27.BackColor = Color.Red;
+            B100.Text = "M";
+            B100.BackColor = Color.Red;
+            B38.Text = "M";
+            B38.BackColor = Color.Red;
+            B64.Text = "M";
+            B64.BackColor = Color.Red;
+            B23.Text = "M";
+            B23.BackColor = Color.Red;
+            B49.Text = "M";
+            B49.BackColor = Color.Red;
+            EndTmr.Enabled = true;
+            B82.BackColor = Color.Red;
+            B82.Text = "M";
+            this.BackColor = Color.Red;
+
+        }
+        private void B17_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B46.Text = "M";
+            B46.BackColor = Color.Red;
+            B87.Text = "M";
+            B87.BackColor = Color.Red;
+            B17.Text = "M";
+            B17.BackColor = Color.Red;
+            B65.Text = "M";
+            B65.BackColor = Color.Red;
+            B27.Text = "M";
+            B27.BackColor = Color.Red;
+            B100.Text = "M";
+            B100.BackColor = Color.Red;
+            B38.Text = "M";
+            B38.BackColor = Color.Red;
+            B64.Text = "M";
+            B64.BackColor = Color.Red;
+            B23.Text = "M";
+            B23.BackColor = Color.Red;
+            B49.Text = "M";
+            B49.BackColor = Color.Red;
+            EndTmr.Enabled = true;
+            B82.BackColor = Color.Red;
+            B82.Text = "M";
+            this.BackColor = Color.Red;
+
+
+        }
+        private void B23_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B46.Text = "M";
+            B46.BackColor = Color.Red;
+            B87.Text = "M";
+            B87.BackColor = Color.Red;
+            B17.Text = "M";
+            B17.BackColor = Color.Red;
+            B65.Text = "M";
+            B65.BackColor = Color.Red;
+            B27.Text = "M";
+            B27.BackColor = Color.Red;
+            B100.Text = "M";
+            B100.BackColor = Color.Red;
+            B38.Text = "M";
+            B38.BackColor = Color.Red;
+            B64.Text = "M";
+            B64.BackColor = Color.Red;
+            B23.Text = "M";
+            B23.BackColor = Color.Red;
+            B49.Text = "M";
+            B49.BackColor = Color.Red;
+            EndTmr.Enabled = true;
+            B82.BackColor = Color.Red;
+            B82.Text = "M";
+            this.BackColor = Color.Red;
+
+        }
+        private void B27_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B46.Text = "M";
+            B46.BackColor = Color.Red;
+            B87.Text = "M";
+            B87.BackColor = Color.Red;
+            B17.Text = "M";
+            B17.BackColor = Color.Red;
+            B65.Text = "M";
+            B65.BackColor = Color.Red;
+            B27.Text = "M";
+            B27.BackColor = Color.Red;
+            B100.Text = "M";
+            B100.BackColor = Color.Red;
+            B38.Text = "M";
+            B38.BackColor = Color.Red;
+            B64.Text = "M";
+            B64.BackColor = Color.Red;
+            B23.Text = "M";
+            B23.BackColor = Color.Red;
+            B49.Text = "M";
+            B49.BackColor = Color.Red;
+            EndTmr.Enabled = true;
+            B82.BackColor = Color.Red;
+            B82.Text = "M";
+            this.BackColor = Color.Red;
+
+
+        }
+       
+
+        private void B38_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B46.Text = "M";
+            B46.BackColor = Color.Red;
+            B87.Text = "M";
+            B87.BackColor = Color.Red;
+            B17.Text = "M";
+            B17.BackColor = Color.Red;
+            B65.Text = "M";
+            B65.BackColor = Color.Red;
+            B27.Text = "M";
+            B27.BackColor = Color.Red;
+            B100.Text = "M";
+            B100.BackColor = Color.Red;
+            B38.Text = "M";
+            B38.BackColor = Color.Red;
+            B64.Text = "M";
+            B64.BackColor = Color.Red;
+            B23.Text = "M";
+            B23.BackColor = Color.Red;
+            B49.Text = "M";
+            B49.BackColor = Color.Red;
+            EndTmr.Enabled = true;
+            B82.BackColor = Color.Red;
+            B82.Text = "M";
+            this.BackColor = Color.Red;
+
+
+        }
+
+        private void B49_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B46.Text = "M";
+            B46.BackColor = Color.Red;
+            B87.Text = "M";
+            B87.BackColor = Color.Red;
+            B17.Text = "M";
+            B17.BackColor = Color.Red;
+            B65.Text = "M";
+            B65.BackColor = Color.Red;
+            B49.Text = "M";
+            B49.BackColor = Color.Red;
+            B27.Text = "M";
+            B27.BackColor = Color.Red;
+            B100.Text = "M";
+            B100.BackColor = Color.Red;
+            B38.Text = "M";
+            B38.BackColor = Color.Red;
+            B64.Text = "M";
+            B64.BackColor = Color.Red;
+            B23.Text = "M";
+            B23.BackColor = Color.Red;
+            EndTmr.Enabled = true;
+            B82.BackColor = Color.Red;
+            B82.Text = "M";
+            this.BackColor = Color.Red;
+
+        }
+        private void B65_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B46.Text = "M";
+            B46.BackColor = Color.Red;
+            B87.Text = "M";
+            B87.BackColor = Color.Red;
+            B17.Text = "M";
+            B17.BackColor = Color.Red;
+            B65.Text = "M";
+            B65.BackColor = Color.Red;
+            B27.Text = "M";
+            B27.BackColor = Color.Red;
+            B100.Text = "M";
+            B100.BackColor = Color.Red;
+            B38.Text = "M";
+            B38.BackColor = Color.Red;
+            B64.Text = "M";
+            B64.BackColor = Color.Red;
+            B23.Text = "M";
+            B23.BackColor = Color.Red;
+            B49.Text = "M";
+            B49.BackColor = Color.Red;
+            EndTmr.Enabled = true;
+            B82.BackColor = Color.Red;
+            B82.Text = "M";
+            this.BackColor = Color.Red;
+
+        }
+        private void B82_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B46.Text = "M";
+            B46.BackColor = Color.Red;
+            B87.Text = "M";
+            B87.BackColor = Color.Red;
+            B82.BackColor = Color.Red;
+            B82.Text = "M";
             B17.Text = "M";
             B17.BackColor = Color.Red;
             B65.Text = "M";
@@ -159,9 +374,85 @@ namespace MindSweeper
             B49.BackColor = Color.Red;
             EndTmr.Enabled = true;
             this.BackColor = Color.Red;
+        }
+        private void B100_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B46.Text = "M";
+            B46.BackColor = Color.Red;
+            B87.Text = "M";
+            B87.BackColor = Color.Red;
+            B17.Text = "M";
+            B17.BackColor = Color.Red;
+            B65.Text = "M";
+            B65.BackColor = Color.Red;
+            B100.Text = "M";
+            B100.BackColor = Color.Red;
+            B38.Text = "M";
+            B38.BackColor = Color.Red;
+            B64.Text = "M";
+            B64.BackColor = Color.Red;
+            B23.Text = "M";
+            B23.BackColor = Color.Red;
+            B82.BackColor = Color.Red;
+            B82.Text = "M";
+            EndTmr.Enabled = true;
+            this.BackColor = Color.Red;
+
 
         }
+        private void B87_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B46.Text = "M";
+            B46.BackColor = Color.Red;
+            B87.Text = "M";
+            B87.BackColor = Color.Red;         
+            B17.Text = "M";
+            B17.BackColor = Color.Red;
+            B65.Text = "M";
+            B65.BackColor = Color.Red;
+            B100.Text = "M";
+            B100.BackColor = Color.Red;
+            B38.Text = "M";
+            B38.BackColor = Color.Red;
+            B64.Text = "M";
+            B64.BackColor = Color.Red;
+            B23.Text = "M";
+            B23.BackColor = Color.Red;
+            B82.BackColor = Color.Red;
+            B82.Text = "M";
+            EndTmr.Enabled = true;
+            this.BackColor = Color.Red;
 
+        }
+        private void B46_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B46.Text = "M"; 
+            B46.BackColor = Color.Red;
+            B87.Text = "M";
+            B87.BackColor = Color.Red;
+            B17.Text = "M";
+            B17.BackColor = Color.Red;
+            B65.Text = "M";
+            B65.BackColor = Color.Red;
+            B100.Text = "M";
+            B100.BackColor = Color.Red;
+            B38.Text = "M";
+            B38.BackColor = Color.Red;
+            B64.Text = "M";
+            B64.BackColor = Color.Red;
+            B23.Text = "M";
+            B23.BackColor = Color.Red;
+            B82.BackColor = Color.Red;
+            B82.Text = "M";
+            EndTmr.Enabled = true;
+            this.BackColor = Color.Red;
+
+
+        }
+        //-----------------------------------------------------------------------------------------------------------------------\\
         private void B2_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
@@ -246,30 +537,7 @@ namespace MindSweeper
 
         }
 
-        private void B17_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B17.Text = "M";
-            B17.BackColor = Color.Red;
-            B65.Text = "M";
-            B65.BackColor = Color.Red;
-            B27.Text = "M";
-            B27.BackColor = Color.Red;
-            B100.Text = "M";
-            B100.BackColor = Color.Red;
-            B38.Text = "M";
-            B38.BackColor = Color.Red;
-            B64.Text = "M";
-            B64.BackColor = Color.Red;
-            B23.Text = "M";
-            B23.BackColor = Color.Red;
-            B49.Text = "M";
-            B49.BackColor = Color.Red;
-            EndTmr.Enabled = true;
-            this.BackColor = Color.Red;
-
-
-        }
+       
 
         private void B16_Click(object sender, EventArgs e)
         {
@@ -328,29 +596,7 @@ namespace MindSweeper
 
         }
 
-        private void B23_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B17.Text = "M";
-            B17.BackColor = Color.Red;
-            B65.Text = "M";
-            B65.BackColor = Color.Red;
-            B27.Text = "M";
-            B27.BackColor = Color.Red;
-            B100.Text = "M";
-            B100.BackColor = Color.Red;
-            B38.Text = "M";
-            B38.BackColor = Color.Red;
-            B64.Text = "M";
-            B64.BackColor = Color.Red;
-            B23.Text = "M";
-            B23.BackColor = Color.Red;
-            B49.Text = "M";
-            B49.BackColor = Color.Red;
-            EndTmr.Enabled = true;
-            this.BackColor = Color.Red;
-
-        }
+       
 
         private void B24_Click(object sender, EventArgs e)
         {
@@ -375,30 +621,7 @@ namespace MindSweeper
 
         }
 
-        private void B27_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B17.Text = "M";
-            B17.BackColor = Color.Red;
-            B65.Text = "M";
-            B65.BackColor = Color.Red;
-            B27.Text = "M";
-            B27.BackColor = Color.Red;
-            B100.Text = "M";
-            B100.BackColor = Color.Red;
-            B38.Text = "M";
-            B38.BackColor = Color.Red;
-            B64.Text = "M";
-            B64.BackColor = Color.Red;
-            B23.Text = "M";
-            B23.BackColor = Color.Red;
-            B49.Text = "M";
-            B49.BackColor = Color.Red;
-            EndTmr.Enabled = true;
-            this.BackColor = Color.Red;
-
-
-        }
+       
 
         private void B28_Click(object sender, EventArgs e)
         {
@@ -435,30 +658,6 @@ namespace MindSweeper
 
         }
 
-        private void B38_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B17.Text = "M";
-            B17.BackColor = Color.Red;
-            B65.Text = "M";
-            B65.BackColor = Color.Red;
-            B27.Text = "M";
-            B27.BackColor = Color.Red;
-            B100.Text = "M";
-            B100.BackColor = Color.Red;
-            B38.Text = "M";
-            B38.BackColor = Color.Red;
-            B64.Text = "M";
-            B64.BackColor = Color.Red;
-            B23.Text = "M";
-            B23.BackColor = Color.Red;
-            B49.Text = "M";
-            B49.BackColor = Color.Red;
-            EndTmr.Enabled = true;
-            this.BackColor = Color.Red;
-
-
-        }
 
         private void B37_Click(object sender, EventArgs e)
         {
@@ -550,13 +749,7 @@ namespace MindSweeper
 
         }
 
-        private void B46_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B46.BackColor = Color.Gray;
-
-
-        }
+        
 
         private void B47_Click(object sender, EventArgs e)
         {
@@ -573,29 +766,6 @@ namespace MindSweeper
 
         }
 
-        private void B49_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B17.Text = "M";
-            B17.BackColor = Color.Red;
-            B65.Text = "M";
-            B65.BackColor = Color.Red;
-            B49.Text = "M";
-            B49.BackColor = Color.Red;
-            B27.Text = "M";
-            B27.BackColor = Color.Red;
-            B100.Text = "M";
-            B100.BackColor = Color.Red;
-            B38.Text = "M";
-            B38.BackColor = Color.Red;
-            B64.Text = "M";
-            B64.BackColor = Color.Red;
-            B23.Text = "M";
-            B23.BackColor = Color.Red;
-            EndTmr.Enabled = true;
-            this.BackColor = Color.Red;
-
-        }
 
         private void B50_Click(object sender, EventArgs e)
         {
@@ -714,29 +884,7 @@ namespace MindSweeper
 
         }
 
-        private void B65_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B17.Text = "M";
-            B17.BackColor = Color.Red;
-            B65.Text = "M";
-            B65.BackColor = Color.Red;
-            B27.Text = "M";
-            B27.BackColor = Color.Red;
-            B100.Text = "M";
-            B100.BackColor = Color.Red;
-            B38.Text = "M";
-            B38.BackColor = Color.Red;
-            B64.Text = "M";
-            B64.BackColor = Color.Red;
-            B23.Text = "M";
-            B23.BackColor = Color.Red;
-            B49.Text = "M";
-            B49.BackColor = Color.Red;
-            EndTmr.Enabled = true;
-            this.BackColor = Color.Red;
-
-        }
+      
 
         private void B66_Click(object sender, EventArgs e)
         {
@@ -857,12 +1005,7 @@ namespace MindSweeper
 
         }
 
-        private void B82_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B82.BackColor = Color.Gray;
-
-        }
+      
 
         private void B83_Click(object sender, EventArgs e)
         {
@@ -892,13 +1035,7 @@ namespace MindSweeper
 
         }
 
-        private void B87_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B87.BackColor = Color.Gray;
-
-
-        }
+       
 
         private void B88_Click(object sender, EventArgs e)
         {
@@ -922,26 +1059,7 @@ namespace MindSweeper
 
         }
 
-        private void B100_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B17.Text = "M";
-            B17.BackColor = Color.Red;
-            B65.Text = "M";
-            B65.BackColor = Color.Red;
-            B100.Text = "M";
-            B100.BackColor = Color.Red;
-            B38.Text = "M";
-            B38.BackColor = Color.Red;
-            B64.Text = "M";
-            B64.BackColor = Color.Red;
-            B23.Text = "M";
-            B23.BackColor = Color.Red;
-            EndTmr.Enabled = true;
-            this.BackColor = Color.Red;
-
-
-        }
+        
 
         private void B99_Click(object sender, EventArgs e)
         {
@@ -1026,6 +1144,9 @@ namespace MindSweeper
             B64.Text = "";
             B23.Text = "";
             B49.Text = "";
+            B82.Text = "";
+            B87.Text = "";
+            B46.Text = "";
             Resetbtn1.BackColor= Color.Gray;
 
             Greentmr.Enabled=false;
