@@ -1027,6 +1027,7 @@ namespace MindSweeper
             B23.Text = "";
             B49.Text = "";
             Resetbtn1.BackColor= Color.Gray;
+
             Greentmr.Enabled=false;
             GreyTimer.Enabled=false;
             this.BackColor = Color.White;
