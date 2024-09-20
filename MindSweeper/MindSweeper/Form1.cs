@@ -20,7 +20,7 @@ namespace MindSweeper
         {
 
             InitializeComponent();
-
+           
             btn[0] = B1;
             btn[1] = B2;
             btn[2] = B3;
@@ -141,6 +141,8 @@ namespace MindSweeper
         private void B64_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B31.Text = "M";
+            B31.BackColor = Color.Red;
             B46.Text = "M";
             B46.BackColor = Color.Red;
             B87.Text = "M";
@@ -170,6 +172,8 @@ namespace MindSweeper
         private void B17_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B31.Text = "M";
+            B31.BackColor = Color.Red;
             B46.Text = "M";
             B46.BackColor = Color.Red;
             B87.Text = "M";
@@ -200,6 +204,8 @@ namespace MindSweeper
         private void B23_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B31.Text = "M";
+            B31.BackColor = Color.Red;
             B46.Text = "M";
             B46.BackColor = Color.Red;
             B87.Text = "M";
@@ -229,6 +235,8 @@ namespace MindSweeper
         private void B27_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B31.Text = "M";
+            B31.BackColor = Color.Red;
             B46.Text = "M";
             B46.BackColor = Color.Red;
             B87.Text = "M";
@@ -261,6 +269,8 @@ namespace MindSweeper
         private void B38_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B31.Text = "M";
+            B31.BackColor = Color.Red;
             B46.Text = "M";
             B46.BackColor = Color.Red;
             B87.Text = "M";
@@ -292,6 +302,8 @@ namespace MindSweeper
         private void B49_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B31.Text = "M";
+            B31.BackColor = Color.Red;
             B46.Text = "M";
             B46.BackColor = Color.Red;
             B87.Text = "M";
@@ -321,6 +333,8 @@ namespace MindSweeper
         private void B65_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B31.Text = "M";
+            B31.BackColor = Color.Red;
             B46.Text = "M";
             B46.BackColor = Color.Red;
             B87.Text = "M";
@@ -350,6 +364,8 @@ namespace MindSweeper
         private void B82_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B31.Text = "M";
+            B31.BackColor = Color.Red;
             B46.Text = "M";
             B46.BackColor = Color.Red;
             B87.Text = "M";
@@ -378,6 +394,8 @@ namespace MindSweeper
         private void B100_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B31.Text = "M";
+            B31.BackColor = Color.Red;
             B46.Text = "M";
             B46.BackColor = Color.Red;
             B87.Text = "M";
@@ -404,6 +422,8 @@ namespace MindSweeper
         private void B87_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B31.Text = "M";
+            B31.BackColor = Color.Red;
             B46.Text = "M";
             B46.BackColor = Color.Red;
             B87.Text = "M";
@@ -429,6 +449,8 @@ namespace MindSweeper
         private void B46_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B31.Text = "M";
+            B31.BackColor = Color.Red;
             B46.Text = "M"; 
             B46.BackColor = Color.Red;
             B87.Text = "M";
@@ -452,6 +474,33 @@ namespace MindSweeper
 
 
         }
+        private void B31_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B31.Text = "M";
+            B31.BackColor = Color.Red;
+            B46.Text = "M";
+            B46.BackColor = Color.Red;
+            B87.Text = "M";
+            B87.BackColor = Color.Red;
+            B17.Text = "M";
+            B17.BackColor = Color.Red;
+            B65.Text = "M";
+            B65.BackColor = Color.Red;
+            B100.Text = "M";
+            B100.BackColor = Color.Red;
+            B38.Text = "M";
+            B38.BackColor = Color.Red;
+            B64.Text = "M";
+            B64.BackColor = Color.Red;
+            B23.Text = "M";
+            B23.BackColor = Color.Red;
+            B82.BackColor = Color.Red;
+            B82.Text = "M";
+            EndTmr.Enabled = true;
+            this.BackColor = Color.Red;
+
+        }
         //-----------------------------------------------------------------------------------------------------------------------\\
         private void B2_Click(object sender, EventArgs e)
         {
@@ -463,6 +512,7 @@ namespace MindSweeper
         {
             int A = Random.Next(1, 3);
             B3.BackColor = Color.Gray;
+            B3.Text= "1";
 
         }
 
@@ -470,6 +520,7 @@ namespace MindSweeper
         {
             int A = Random.Next(1, 3);
             B4.BackColor = Color.Gray;
+            B4.Text= "1";
 
         }
 
@@ -558,20 +609,30 @@ namespace MindSweeper
         {
             int A = Random.Next(1, 3);
             B14.BackColor = Color.Gray;
-
+            B14.Text = "1";
         }
 
         private void B13_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
             B13.BackColor = Color.Gray;
-
+            B13.Text = "1";
         }
 
         private void B12_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
             B12.BackColor = Color.Gray;
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B2.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
 
         }
 
@@ -579,6 +640,16 @@ namespace MindSweeper
         {
             int A = Random.Next(1, 3);
             B11.BackColor = Color.Gray;
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B2.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
 
         }
 
@@ -586,6 +657,16 @@ namespace MindSweeper
         {
             int A = Random.Next(1, 3);
             B21.BackColor = Color.Gray;
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B2.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
 
         }
 
@@ -593,6 +674,16 @@ namespace MindSweeper
         {
             int A = Random.Next(1, 3);
             B22.BackColor = Color.Gray;
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B2.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
 
         }
 
@@ -706,12 +797,7 @@ namespace MindSweeper
 
         }
 
-        private void B31_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B31.BackColor = Color.Gray;
-
-        }
+       
 
         private void B41_Click(object sender, EventArgs e)
         {
@@ -880,6 +966,15 @@ namespace MindSweeper
             int A = Random.Next(1, 3);
 
             B1.BackColor = Color.Gray;
+            B2.BackColor= Color.Gray;
+            B2.Text = "1";
+            B11.BackColor= Color.Gray;
+            B12.BackColor= Color.Gray;
+            B12.Text = "1";
+            B21.BackColor= Color.Gray;
+            B21.Text = "1";
+            B22.BackColor= Color.Gray;
+            B22.Text = "2";
 
 
         }
@@ -1147,111 +1242,216 @@ namespace MindSweeper
             B82.Text = "";
             B87.Text = "";
             B46.Text = "";
+
             Resetbtn1.BackColor= Color.Gray;
 
             Greentmr.Enabled=false;
             GreyTimer.Enabled=false;
             this.BackColor = Color.White;
+            //-----------------------------------------------------------------------------------------\\
+            //Bellow this point sets the pattern of the buttons like green, lime
             B1.BackColor = Color.Green;
-            B2.BackColor = Color.Green;
+            B2.BackColor = Color.Lime;
             B3.BackColor = Color.Green;
-            B4.BackColor = Color.Green;
+            B4.BackColor = Color.Lime;
             B5.BackColor = Color.Green;
-            B6.BackColor = Color.Green;
+            B6.BackColor = Color.Lime;
             B7.BackColor = Color.Green;
-            B8.BackColor = Color.Green;
+            B8.BackColor = Color.Lime;
             B9.BackColor = Color.Green;
-            B10.BackColor = Color.Green;
-            B11.BackColor = Color.Green;
+            B10.BackColor = Color.Lime;
+            B11.BackColor = Color.Lime;
             B12.BackColor = Color.Green;
-            B13.BackColor = Color.Green;
+            B13.BackColor = Color.Lime;
             B14.BackColor = Color.Green;
-            B15.BackColor = Color.Green;
+            B15.BackColor = Color.Lime;
             B16.BackColor = Color.Green;
-            B17.BackColor = Color.Green;
+            B17.BackColor = Color.Lime;
             B18.BackColor = Color.Green;
-            B19.BackColor = Color.Green;
+            B19.BackColor = Color.Lime;
             B20.BackColor = Color.Green;
             B21.BackColor = Color.Green;
-            B22.BackColor = Color.Green;
+            B22.BackColor = Color.Lime;
             B23.BackColor = Color.Green;
-            B24.BackColor = Color.Green;
+            B24.BackColor = Color.Lime;
             B25.BackColor = Color.Green;
-            B26.BackColor = Color.Green;
+            B26.BackColor = Color.Lime;
             B27.BackColor = Color.Green;
-            B28.BackColor = Color.Green;
+            B28.BackColor = Color.Lime;
             B29.BackColor = Color.Green;
-            B30.BackColor = Color.Green;
-            B31.BackColor = Color.Green;
+            B30.BackColor = Color.Lime;
+            B31.BackColor = Color.Lime;
             B32.BackColor = Color.Green;
-            B33.BackColor = Color.Green;
+            B33.BackColor = Color.Lime;
             B34.BackColor = Color.Green;
-            B35.BackColor = Color.Green;
+            B35.BackColor = Color.Lime;
             B36.BackColor = Color.Green;
-            B37.BackColor = Color.Green;
+            B37.BackColor = Color.Lime;
             B38.BackColor = Color.Green;
-            B39.BackColor = Color.Green;
+            B39.BackColor = Color.Lime;
             B40.BackColor = Color.Green;
             B41.BackColor = Color.Green;
-            B42.BackColor = Color.Green;
+            B42.BackColor = Color.Lime;
             B43.BackColor = Color.Green;
-            B44.BackColor = Color.Green;
+            B44.BackColor = Color.Lime;
             B45.BackColor = Color.Green;
-            B46.BackColor = Color.Green;
+            B46.BackColor = Color.Lime;
             B47.BackColor = Color.Green;
-            B48.BackColor = Color.Green;
+            B48.BackColor = Color.Lime;
             B49.BackColor = Color.Green;
-            B50.BackColor = Color.Green;
-            B51.BackColor = Color.Green;
+            B50.BackColor = Color.Lime;
+            B51.BackColor = Color.Lime;
             B52.BackColor = Color.Green;
-            B53.BackColor = Color.Green;
+            B53.BackColor = Color.Lime;
             B54.BackColor = Color.Green;
-            B55.BackColor = Color.Green;
+            B55.BackColor = Color.Lime;
             B56.BackColor = Color.Green;
-            B57.BackColor = Color.Green;
+            B57.BackColor = Color.Lime;
             B58.BackColor = Color.Green;
-            B59.BackColor = Color.Green;
+            B59.BackColor = Color.Lime;
             B60.BackColor = Color.Green;
             B61.BackColor = Color.Green;
-            B62.BackColor = Color.Green;
+            B62.BackColor = Color.Lime;
             B63.BackColor = Color.Green;
-            B64.BackColor = Color.Green;
+            B64.BackColor = Color.Lime;
             B65.BackColor = Color.Green;
-            B66.BackColor = Color.Green;
+            B66.BackColor = Color.Lime;
             B67.BackColor = Color.Green;
-            B68.BackColor = Color.Green;
+            B68.BackColor = Color.Lime;
             B69.BackColor = Color.Green;
-            B70.BackColor = Color.Green;
-            B71.BackColor = Color.Green;
+            B70.BackColor = Color.Lime;
+            B71.BackColor = Color.Lime;
             B72.BackColor = Color.Green;
-            B73.BackColor = Color.Green;
+            B73.BackColor = Color.Lime;
             B74.BackColor = Color.Green;
-            B75.BackColor = Color.Green;
+            B75.BackColor = Color.Lime;
             B76.BackColor = Color.Green;
-            B77.BackColor = Color.Green;
+            B77.BackColor = Color.Lime;
             B78.BackColor = Color.Green;
-            B79.BackColor = Color.Green;
+            B79.BackColor = Color.Lime;
             B80.BackColor = Color.Green;
             B81.BackColor = Color.Green;
-            B82.BackColor = Color.Green;
+            B82.BackColor = Color.Lime;
             B83.BackColor = Color.Green;
-            B84.BackColor = Color.Green;
+            B84.BackColor = Color.Lime;
             B85.BackColor = Color.Green;
-            B86.BackColor = Color.Green;
+            B86.BackColor = Color.Lime;
             B87.BackColor = Color.Green;
-            B88.BackColor = Color.Green;
+            B88.BackColor = Color.Lime;
             B89.BackColor = Color.Green;
-            B90.BackColor = Color.Green;
-            B91.BackColor = Color.Green;
+            B90.BackColor = Color.Lime;
+            B91.BackColor = Color.Lime;
             B92.BackColor = Color.Green;
-            B93.BackColor = Color.Green;
+            B93.BackColor = Color.Lime;
             B94.BackColor = Color.Green;
-            B95.BackColor = Color.Green;
+            B95.BackColor = Color.Lime;
             B96.BackColor = Color.Green;
-            B97.BackColor = Color.Green;
+            B97.BackColor = Color.Lime;
             B98.BackColor = Color.Green;
-            B99.BackColor = Color.Green;
+            B99.BackColor = Color.Lime;
             B100.BackColor = Color.Green;
+            //--------------------------------------------------------------------------------------\\
+            // bellow this point clears all the text from the buttons 
+            B1.Text = "";
+            B2.Text = "";
+            B3.Text = "";
+            B4.Text = "";
+            B5.Text = "";
+            B6.Text = "";
+            B7.Text = "";
+            B8.Text = "";
+            B9.Text = "";
+            B10.Text = "";
+            B11.Text = "";
+            B12.Text = "";
+            B13.Text = "";
+            B14.Text = "";
+            B15.Text = "";
+            B16.Text = "";
+            B17.Text = "";
+            B18.Text = "";
+            B19.Text = "";
+            B20.Text = "";
+            B21.Text = "";
+            B22.Text = "";
+            B23.Text = "";
+            B24.Text = "";
+            B25.Text = "";
+            B26.Text = "";
+            B27.Text = "";
+            B28.Text = "";
+            B29.Text = ""; 
+            B30.Text = "";
+            B31.Text = "";
+            B32.Text = "";
+            B33.Text = "";
+            B34.Text = "";
+            B35.Text = "";
+            B36.Text = "";
+            B37.Text = "";
+            B38.Text = "";
+            B39.Text = "";
+            B40.Text = "";
+            B41.Text = "";
+            B42.Text = "";
+            B43.Text = "";
+            B44.Text = "";
+            B45.Text = "";
+            B46.Text = "";
+            B47.Text = "";
+            B48.Text = "";
+            B49.Text = "";
+            B50.Text = "";
+            B51.Text = "";
+            B52.Text = "";
+            B53.Text = "";
+            B54.Text = "";
+            B55.Text = "";
+            B56.Text = "";
+            B57.Text = "";
+            B58.Text = "";
+            B59.Text = "";
+            B60.Text = "";
+            B61.Text = "";
+            B62.Text = "";
+            B63.Text = "";
+            B64.Text = "";
+            B65.Text = "";
+            B66.Text = "";
+            B67.Text = "";
+            B68.Text = "";
+            B69.Text = "";
+            B70.Text = "";
+            B71.Text = "";
+            B72.Text = "";
+            B73.Text = "";
+            B74.Text = "";
+            B75.Text = "";
+            B76.Text = "";
+            B77.Text = "";
+            B78.Text = "";
+            B79.Text = "";
+            B80.Text = "";
+            B81.Text = "";
+            B82.Text = "";
+            B83.Text = "";
+            B84.Text = "";
+            B85.Text = "";
+            B86.Text = "";
+            B87.Text = "";
+            B88.Text = "";
+            B89.Text = "";
+            B90.Text = "";
+            B91.Text = "";
+            B92.Text = "";
+            B93.Text = "";
+            B94.Text = "";
+            B95.Text = "";
+            B96.Text = "";
+            B97.Text = "";
+            B98.Text = "";
+            B99.Text = "";
+            B100.Text = "";
         }
 
         private void Greentmr_Tick(object sender, EventArgs e)
