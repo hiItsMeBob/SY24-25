@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -137,7 +138,8 @@ namespace MindSweeper
             NumLable.Text += a.ToString() + ", ";
 
         }
-
+        //-----------------------------------------------------------------------------------------------------------------------\\
+        //everything bellow this point are all the mines 
         private void B64_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
@@ -502,46 +504,2444 @@ namespace MindSweeper
 
         }
         //-----------------------------------------------------------------------------------------------------------------------\\
+        //Bellow this point is group (Alpha)
         private void B2_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
             B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B26.BackColor = Color.Gray;
+            B26.Text = "2";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
         }
 
         private void B3_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
             B3.BackColor = Color.Gray;
-            B3.Text= "1";
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B26.BackColor = Color.Gray;
+            B26.Text = "2";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
 
         }
 
         private void B4_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
             B4.BackColor = Color.Gray;
-            B4.Text= "1";
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B26.BackColor = Color.Gray;
+            B26.Text = "2";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
 
         }
 
         private void B5_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
             B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B26.BackColor = Color.Gray;
+            B26.Text = "2";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
 
         }
 
         private void B6_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
             B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B26.BackColor = Color.Gray;
+            B26.Text = "2";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+        }
+        private void B16_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B26.BackColor = Color.Gray;
+            B26.Text = "2";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
 
         }
 
+        private void B15_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B26.BackColor = Color.Gray;
+            B26.Text = "2";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+        }
+
+        private void B14_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B26.BackColor = Color.Gray;
+            B26.Text = "2";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+        }
+
+        private void B13_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B26.BackColor = Color.Gray;
+            B26.Text = "2";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+        }
+
+        private void B12_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B26.BackColor = Color.Gray;
+            B26.Text = "2";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+        }
+
+        private void B11_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B26.BackColor = Color.Gray;
+            B26.Text = "2";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+        }
+
+        private void B21_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B26.BackColor = Color.Gray;
+            B26.Text = "2";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+        }
+
+        private void B22_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B26.BackColor = Color.Gray;
+            B26.Text = "2";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+        }
+
+
+
+        private void B24_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B26.BackColor = Color.Gray;
+            B26.Text = "2";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+        }
+
+        private void B25_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B26.BackColor = Color.Gray;
+            B26.Text = "2";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+        }
+       
+
+        private void B35_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+
+        }
+
+        private void B34_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+
+        }
+
+        private void B33_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+
+        }
+
+        private void B32_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+
+        }
+
+
+
+        private void B41_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+        }
+
+        private void B42_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+        }
+
+        private void B43_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+        }
+
+        private void B44_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+
+        }
+
+        private void B45_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+        }
+
+
+
+       
+
+        private void B55_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+
+        }
+
+        private void B54_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+        }
+
+        private void B53_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+
+        }
+
+        private void B52_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+        }
+
+        private void B51_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+
+        }
+
+        private void B61_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+        }
+
+        private void B62_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+
+        }
+
+     
+
+        private void B1_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+
+            B1.BackColor = Color.Gray;
+            B2.BackColor= Color.Gray;
+            B3.BackColor = Color.Gray;
+            
+            B4.BackColor= Color.Gray;
+            B5.BackColor= Color.Gray;
+            B6.BackColor= Color.Gray;
+            B6.Text = "1";
+            B11.BackColor= Color.Gray;
+            B12.BackColor= Color.Gray;
+            B12.Text = "1";
+            B13.BackColor= Color.Gray;
+            B13.Text = "1";
+            B14.BackColor= Color.Gray;
+            B14.Text = "1";
+            B15.BackColor= Color.Gray;
+            B16.BackColor= Color.Gray;
+            B16.Text = "2";
+            B21.BackColor= Color.Gray;
+            B21.Text = "1";
+            B22.BackColor= Color.Gray;
+            B22.Text = "2";
+            B24.BackColor= Color.Gray;
+            B24.Text = "1";
+            B25.BackColor= Color.Gray;
+            B25.Text = "";
+            B32.BackColor= Color.Gray;
+            B32.Text = "2";
+            B33.BackColor= Color.Gray;
+            B33.Text = "1";
+            B34.BackColor= Color.Gray;
+            B34.Text = "1";
+            B35.BackColor= Color.Gray;
+            B35.Text = "2";
+            B41.BackColor= Color.Gray;
+            B41.Text = "1";
+            B42.BackColor= Color.Gray;
+            B42.Text = "1";
+            B43.BackColor= Color.Gray;
+            B43.Text = "";
+            B44.BackColor= Color.Gray;
+            B44.Text = "";
+            B45.BackColor= Color.Gray;
+            B45.Text = "1";
+            B51.BackColor= Color.Gray;
+            B51.Text = "";
+            B52.BackColor= Color.Gray;
+            B52.Text = "";
+            B53.BackColor= Color.Gray;
+            B53.Text = "1";
+            B54.BackColor= Color.Gray;
+            B54.Text = "2";
+            B55.BackColor= Color.Gray;
+            B55.Text = "3";
+            B61.BackColor= Color.Gray;
+            B61.Text = "";
+            B62.BackColor= Color.Gray;
+            B62.Text = "1";
+            B63.BackColor= Color.Gray;
+            B63.Text = "1";
+            B71.BackColor= Color.Gray;
+            B71.Text = "1";
+
+
+
+
+        }
+
+        private void B71_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B1.BackColor = Color.Gray;
+            B2.BackColor = Color.Gray;
+            B3.BackColor = Color.Gray;
+
+            B4.BackColor = Color.Gray;
+            B5.BackColor = Color.Gray;
+            B6.BackColor = Color.Gray;
+            B6.Text = "1";
+            B11.BackColor = Color.Gray;
+            B12.BackColor = Color.Gray;
+            B12.Text = "1";
+            B13.BackColor = Color.Gray;
+            B13.Text = "1";
+            B14.BackColor = Color.Gray;
+            B14.Text = "1";
+            B15.BackColor = Color.Gray;
+            B16.BackColor = Color.Gray;
+            B16.Text = "2";
+            B21.BackColor = Color.Gray;
+            B21.Text = "1";
+            B22.BackColor = Color.Gray;
+            B22.Text = "2";
+            B24.BackColor = Color.Gray;
+            B24.Text = "1";
+            B25.BackColor = Color.Gray;
+            B25.Text = "";
+            B32.BackColor = Color.Gray;
+            B32.Text = "2";
+            B33.BackColor = Color.Gray;
+            B33.Text = "1";
+            B34.BackColor = Color.Gray;
+            B34.Text = "1";
+            B35.BackColor = Color.Gray;
+            B35.Text = "2";
+            B41.BackColor = Color.Gray;
+            B41.Text = "1";
+            B42.BackColor = Color.Gray;
+            B42.Text = "1";
+            B43.BackColor = Color.Gray;
+            B43.Text = "";
+            B44.BackColor = Color.Gray;
+            B44.Text = "";
+            B45.BackColor = Color.Gray;
+            B45.Text = "1";
+            B51.BackColor = Color.Gray;
+            B51.Text = "";
+            B52.BackColor = Color.Gray;
+            B52.Text = "";
+            B53.BackColor = Color.Gray;
+            B53.Text = "1";
+            B54.BackColor = Color.Gray;
+            B54.Text = "2";
+            B55.BackColor = Color.Gray;
+            B55.Text = "3";
+            B61.BackColor = Color.Gray;
+            B61.Text = "";
+            B62.BackColor = Color.Gray;
+            B62.Text = "1";
+            B63.BackColor = Color.Gray;
+            B63.Text = "1";
+            B71.BackColor = Color.Gray;
+            B71.Text = "1";
+
+
+        }
+         //-----------------------------------------------------------------------------------------------------------------------------------------------\\
+         //This is group (Bravo) 
+        private void B50_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B50.BackColor = Color.Gray;
+            B50.Text= "1";
+            // B49.BackColor = Color.Gray;   <-- This is a Mine 
+            // B49.Text = "1";               <-- This is a Mine 
+            B48.BackColor = Color.Gray;
+            B48.Text = "1";
+            B47.BackColor = Color.Gray;
+            B47.Text = "2";
+            B60.BackColor = Color.Gray;
+            B60.Text = "1";
+            B59.BackColor = Color.Gray;
+            B59.Text = "1";
+            B58.BackColor = Color.Gray;
+            B58.Text = "1";
+            B57.BackColor = Color.Gray;
+            B57.Text = "1";
+            B56.BackColor = Color.Gray;
+            B56.Text = "2";
+            B70.BackColor = Color.Gray;
+            B70.Text = "";
+            B69.BackColor = Color.Gray;
+            B69.Text = "";
+            B68.BackColor = Color.Gray;
+            B68.Text = "";
+            B67.BackColor = Color.Gray;
+            B67.Text = "";
+            B66.BackColor = Color.Gray;
+            B66.Text = "1";
+            B80.BackColor = Color.Gray;
+            B80.Text = "0";
+            B79.BackColor = Color.Gray;
+            B79.Text = "0";
+            B78.BackColor = Color.Gray;
+            B78.Text = "1";
+            B77.BackColor = Color.Gray;
+            B77.Text = "1";
+            B76.BackColor = Color.Gray;
+            B76.Text = "1";
+
+
+
+        }
+        private void B48_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B48.BackColor = Color.Gray;
+
+
+        }
+
+        private void B47_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B47.BackColor = Color.Gray;
+
+        }
+        private void B60_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B60.BackColor = Color.Gray;
+
+
+        }
+        private void B59_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B59.BackColor = Color.Gray;
+
+        }
+        private void B58_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+            B58.BackColor = Color.Gray;
+
+
+        }
+
+
+
+        // public void setflag()
+        // {
+
+        //    m_flag = !m_fage;
+        //     if (m_flag)
+        //        m_b.backcollor = false;
+        //   else
+        //        m_b.backcollor = null;
+
+
+        // }
+
+
+        //-----------------------------------------------------------------------------------------\\
+        //normal gray buttons
+        private void B66_Click(object sender, EventArgs e)
+        {
+            int A = Random.Next(1, 3);
+        B66.BackColor = Color.Gray;
+
+        }
+       
         private void B7_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
-            B6.BackColor = Color.Gray;
+            B7.BackColor = Color.Gray;
+            B7.Text = "1";
+
 
         }
 
@@ -588,122 +2988,9 @@ namespace MindSweeper
 
         }
 
-       
-
-        private void B16_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B16.BackColor = Color.Gray;
 
 
-        }
 
-        private void B15_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B15.BackColor = Color.Gray;
-
-        }
-
-        private void B14_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B14.BackColor = Color.Gray;
-            B14.Text = "1";
-        }
-
-        private void B13_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B13.BackColor = Color.Gray;
-            B13.Text = "1";
-        }
-
-        private void B12_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B12.BackColor = Color.Gray;
-            B1.BackColor = Color.Gray;
-            B2.BackColor = Color.Gray;
-            B2.Text = "1";
-            B11.BackColor = Color.Gray;
-            B12.BackColor = Color.Gray;
-            B12.Text = "1";
-            B21.BackColor = Color.Gray;
-            B21.Text = "1";
-            B22.BackColor = Color.Gray;
-            B22.Text = "2";
-
-        }
-
-        private void B11_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B11.BackColor = Color.Gray;
-            B1.BackColor = Color.Gray;
-            B2.BackColor = Color.Gray;
-            B2.Text = "1";
-            B11.BackColor = Color.Gray;
-            B12.BackColor = Color.Gray;
-            B12.Text = "1";
-            B21.BackColor = Color.Gray;
-            B21.Text = "1";
-            B22.BackColor = Color.Gray;
-            B22.Text = "2";
-
-        }
-
-        private void B21_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B21.BackColor = Color.Gray;
-            B1.BackColor = Color.Gray;
-            B2.BackColor = Color.Gray;
-            B2.Text = "1";
-            B11.BackColor = Color.Gray;
-            B12.BackColor = Color.Gray;
-            B12.Text = "1";
-            B21.BackColor = Color.Gray;
-            B21.Text = "1";
-            B22.BackColor = Color.Gray;
-            B22.Text = "2";
-
-        }
-
-        private void B22_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B22.BackColor = Color.Gray;
-            B1.BackColor = Color.Gray;
-            B2.BackColor = Color.Gray;
-            B2.Text = "1";
-            B11.BackColor = Color.Gray;
-            B12.BackColor = Color.Gray;
-            B12.Text = "1";
-            B21.BackColor = Color.Gray;
-            B21.Text = "1";
-            B22.BackColor = Color.Gray;
-            B22.Text = "2";
-
-        }
-
-       
-
-        private void B24_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B24.BackColor = Color.Gray;
-
-
-        }
-
-        private void B25_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B25.BackColor = Color.Gray;
-
-
-        }
 
         private void B26_Click(object sender, EventArgs e)
         {
@@ -712,7 +2999,7 @@ namespace MindSweeper
 
         }
 
-       
+
 
         private void B28_Click(object sender, EventArgs e)
         {
@@ -764,125 +3051,15 @@ namespace MindSweeper
             B36.BackColor = Color.Gray;
 
         }
-
-        private void B35_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B35.BackColor = Color.Gray;
+       
 
 
-        }
-
-        private void B34_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B34.BackColor = Color.Gray;
-
-
-        }
-
-        private void B33_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B33.BackColor = Color.Gray;
-
-
-        }
-
-        private void B32_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B32.BackColor = Color.Gray;
-
-
-        }
+      
 
        
 
-        private void B41_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B41.BackColor = Color.Gray;
-
-        }
-
-        private void B42_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B42.BackColor = Color.Gray;
-
-        }
-
-        private void B43_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B43.BackColor = Color.Gray;
-
-        }
-
-        private void B44_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B44.BackColor = Color.Gray;
-
-
-        }
-
-        private void B45_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B45.BackColor = Color.Gray;
-
-        }
-
-        
-
-        private void B47_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B47.BackColor = Color.Gray;
-
-        }
-
-        private void B48_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B48.BackColor = Color.Gray;
-
-
-        }
-
-
-        private void B50_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B50.BackColor = Color.Gray;
-
-
-        }
-
-        private void B60_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B60.BackColor = Color.Gray;
-
-
-        }
-
-        private void B59_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B59.BackColor = Color.Gray;
-
-        }
-
-        private void B58_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B58.BackColor = Color.Gray;
-
-
-        }
+       
+      
 
         private void B57_Click(object sender, EventArgs e)
         {
@@ -900,56 +3077,107 @@ namespace MindSweeper
 
         }
 
-        private void B55_Click(object sender, EventArgs e)
+        private void B67_Click(object sender, EventArgs e)
+    {
+        int A = Random.Next(1, 3);
+
+        B67.BackColor = Color.Gray;
+
+    }
+
+    private void B68_Click(object sender, EventArgs e)
+    {
+        int A = Random.Next(1, 3);
+        B68.BackColor = Color.Gray;
+
+    }
+
+    private void B69_Click(object sender, EventArgs e)
+    {
+        int A = Random.Next(1, 3);
+        B69.BackColor = Color.Gray;
+
+
+    }
+
+    private void B70_Click(object sender, EventArgs e)
+    {
+        int A = Random.Next(1, 3);
+        B70.BackColor = Color.Gray;
+
+
+    }
+
+    private void B80_Click(object sender, EventArgs e)
+    {
+        int A = Random.Next(1, 3);
+        B80.BackColor = Color.Gray;
+
+
+    }
+
+    private void B79_Click(object sender, EventArgs e)
+    {
+        int A = Random.Next(1, 3);
+        B79.BackColor = Color.Gray;
+
+    }
+
+    private void B78_Click(object sender, EventArgs e)
+    {
+        int A = Random.Next(1, 3);
+        B78.BackColor = Color.Gray;
+
+
+    }
+
+    private void B77_Click(object sender, EventArgs e)
+    {
+        int A = Random.Next(1, 3);
+        B77.BackColor = Color.Gray;
+
+
+    }
+
+    private void B76_Click(object sender, EventArgs e)
+    {
+        int A = Random.Next(1, 3);
+        B76.BackColor = Color.Gray;
+
+    }
+
+    private void B75_Click(object sender, EventArgs e)
+    {
+        int A = Random.Next(1, 3);
+        B75.BackColor = Color.Gray;
+
+
+    }
+
+    private void B74_Click(object sender, EventArgs e)
+    {
+        int A = Random.Next(1, 3);
+        B74.BackColor = Color.Gray;
+
+    }
+
+    private void B73_Click(object sender, EventArgs e)
+    {
+        int A = Random.Next(1, 3);
+        B73.BackColor = Color.Gray;
+
+    }
+
+    private void B72_Click(object sender, EventArgs e)
+    {
+        int A = Random.Next(1, 3);
+        B72.BackColor = Color.Gray;
+
+    }
+    private void B81_Click(object sender, EventArgs e)
         {
             int A = Random.Next(1, 3);
-            B55.BackColor = Color.Gray;
-
-
-        }
-
-        private void B54_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B54.BackColor = Color.Gray;
-
-        }
-
-        private void B53_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B53.BackColor = Color.Gray;
-
-
-        }
-
-        private void B52_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B52.BackColor = Color.Gray;
-
-        }
-
-        private void B51_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B51.BackColor = Color.Gray;
-
-
-        }
-
-        private void B61_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B61.BackColor = Color.Gray;
-
-        }
-
-        private void B62_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B62.BackColor = Color.Gray;
-
+            B81.BackColor = Color.Gray;
 
         }
 
@@ -960,147 +3188,6 @@ namespace MindSweeper
 
 
         }
-
-        private void B1_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-
-            B1.BackColor = Color.Gray;
-            B2.BackColor= Color.Gray;
-            B2.Text = "1";
-            B11.BackColor= Color.Gray;
-            B12.BackColor= Color.Gray;
-            B12.Text = "1";
-            B21.BackColor= Color.Gray;
-            B21.Text = "1";
-            B22.BackColor= Color.Gray;
-            B22.Text = "2";
-
-
-        }
-
-      
-
-        private void B66_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B66.BackColor = Color.Gray;
-
-        }
-
-        private void B67_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-
-            B67.BackColor = Color.Gray;
-
-        }
-
-        private void B68_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B68.BackColor = Color.Gray;
-
-        }
-
-        private void B69_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B69.BackColor = Color.Gray;
-
-
-        }
-
-        private void B70_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B70.BackColor = Color.Gray;
-
-
-        }
-
-        private void B80_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B80.BackColor = Color.Gray;
-
-
-        }
-
-        private void B79_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B79.BackColor = Color.Gray;
-
-        }
-
-        private void B78_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B78.BackColor = Color.Gray;
-
-
-        }
-
-        private void B77_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B77.BackColor = Color.Gray;
-
-
-        }
-
-        private void B76_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B76.BackColor = Color.Gray;
-
-        }
-
-        private void B75_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B75.BackColor = Color.Gray;
-
-
-        }
-
-        private void B74_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B74.BackColor = Color.Gray;
-
-        }
-
-        private void B73_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B73.BackColor = Color.Gray;
-
-        }
-
-        private void B72_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B72.BackColor = Color.Gray;
-
-        }
-
-        private void B71_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B71.BackColor = Color.Gray;
-
-        }
-
-        private void B81_Click(object sender, EventArgs e)
-        {
-            int A = Random.Next(1, 3);
-            B81.BackColor = Color.Gray;
-
-        }
-
-      
 
         private void B83_Click(object sender, EventArgs e)
         {
@@ -1231,6 +3318,8 @@ namespace MindSweeper
 
         private void Resetbtn1_Click(object sender, EventArgs e)
         {
+            //-----------------------------------------------------------------------------------------\\
+            //This clears the M's from the mines 
             B17.Text = "";
             B65.Text = "";
             B27.Text = "";
@@ -1249,7 +3338,7 @@ namespace MindSweeper
             GreyTimer.Enabled=false;
             this.BackColor = Color.White;
             //-----------------------------------------------------------------------------------------\\
-            //Bellow this point sets the pattern of the buttons like green, lime
+            //Bellow this point sets the pattern of the buttons like green/lime
             B1.BackColor = Color.Green;
             B2.BackColor = Color.Lime;
             B3.BackColor = Color.Green;
@@ -1453,6 +3542,9 @@ namespace MindSweeper
             B99.Text = "";
             B100.Text = "";
         }
+
+        //-----------------------------------------------------------------------------------------\\
+        //Bellow this point sets up the reset buttons gray green flicker effect  
 
         private void Greentmr_Tick(object sender, EventArgs e)
         {
