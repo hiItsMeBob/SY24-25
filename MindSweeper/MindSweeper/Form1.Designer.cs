@@ -147,6 +147,7 @@
             this.B21.TabIndex = 1;
             this.B21.UseVisualStyleBackColor = false;
             this.B21.Click += new System.EventHandler(this.B21_Click);
+            this.B21.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B22
             // 
@@ -157,6 +158,7 @@
             this.B22.TabIndex = 2;
             this.B22.UseVisualStyleBackColor = false;
             this.B22.Click += new System.EventHandler(this.B22_Click);
+            this.B22.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B23
             // 
@@ -167,6 +169,7 @@
             this.B23.TabIndex = 3;
             this.B23.UseVisualStyleBackColor = false;
             this.B23.Click += new System.EventHandler(this.B23_Click);
+            this.B23.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B24
             // 
@@ -177,6 +180,7 @@
             this.B24.TabIndex = 4;
             this.B24.UseVisualStyleBackColor = false;
             this.B24.Click += new System.EventHandler(this.B24_Click);
+            this.B24.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B25
             // 
@@ -187,6 +191,7 @@
             this.B25.TabIndex = 5;
             this.B25.UseVisualStyleBackColor = false;
             this.B25.Click += new System.EventHandler(this.B25_Click);
+            this.B25.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B26
             // 
@@ -197,6 +202,7 @@
             this.B26.TabIndex = 6;
             this.B26.UseVisualStyleBackColor = false;
             this.B26.Click += new System.EventHandler(this.B26_Click);
+            this.B26.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B27
             // 
@@ -207,6 +213,7 @@
             this.B27.TabIndex = 7;
             this.B27.UseVisualStyleBackColor = false;
             this.B27.Click += new System.EventHandler(this.B27_Click);
+            this.B27.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B28
             // 
@@ -217,6 +224,7 @@
             this.B28.TabIndex = 8;
             this.B28.UseVisualStyleBackColor = false;
             this.B28.Click += new System.EventHandler(this.B28_Click);
+            this.B28.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B29
             // 
@@ -227,6 +235,7 @@
             this.B29.TabIndex = 9;
             this.B29.UseVisualStyleBackColor = false;
             this.B29.Click += new System.EventHandler(this.B29_Click);
+            this.B29.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B30
             // 
@@ -237,6 +246,7 @@
             this.B30.TabIndex = 10;
             this.B30.UseVisualStyleBackColor = false;
             this.B30.Click += new System.EventHandler(this.B30_Click);
+            this.B30.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B40
             // 
@@ -247,6 +257,7 @@
             this.B40.TabIndex = 20;
             this.B40.UseVisualStyleBackColor = false;
             this.B40.Click += new System.EventHandler(this.B40_Click);
+            this.B40.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B39
             // 
@@ -257,6 +268,7 @@
             this.B39.TabIndex = 19;
             this.B39.UseVisualStyleBackColor = false;
             this.B39.Click += new System.EventHandler(this.B39_Click);
+            this.B39.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B38
             // 
@@ -267,6 +279,7 @@
             this.B38.TabIndex = 18;
             this.B38.UseVisualStyleBackColor = false;
             this.B38.Click += new System.EventHandler(this.B38_Click);
+            this.B38.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B37
             // 
@@ -277,6 +290,7 @@
             this.B37.TabIndex = 17;
             this.B37.UseVisualStyleBackColor = false;
             this.B37.Click += new System.EventHandler(this.B37_Click);
+            this.B37.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B36
             // 
@@ -287,6 +301,7 @@
             this.B36.TabIndex = 16;
             this.B36.UseVisualStyleBackColor = false;
             this.B36.Click += new System.EventHandler(this.B36_Click);
+            this.B36.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B35
             // 
@@ -297,6 +312,7 @@
             this.B35.TabIndex = 15;
             this.B35.UseVisualStyleBackColor = false;
             this.B35.Click += new System.EventHandler(this.B35_Click);
+            this.B35.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B34
             // 
@@ -307,6 +323,7 @@
             this.B34.TabIndex = 14;
             this.B34.UseVisualStyleBackColor = false;
             this.B34.Click += new System.EventHandler(this.B34_Click);
+            this.B34.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B33
             // 
@@ -317,6 +334,7 @@
             this.B33.TabIndex = 13;
             this.B33.UseVisualStyleBackColor = false;
             this.B33.Click += new System.EventHandler(this.B33_Click);
+            this.B33.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B32
             // 
@@ -327,6 +345,7 @@
             this.B32.TabIndex = 12;
             this.B32.UseVisualStyleBackColor = false;
             this.B32.Click += new System.EventHandler(this.B32_Click);
+            this.B32.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B31
             // 
@@ -337,6 +356,7 @@
             this.B31.TabIndex = 11;
             this.B31.UseVisualStyleBackColor = false;
             this.B31.Click += new System.EventHandler(this.B31_Click);
+            this.B31.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B50
             // 
@@ -347,6 +367,7 @@
             this.B50.TabIndex = 30;
             this.B50.UseVisualStyleBackColor = false;
             this.B50.Click += new System.EventHandler(this.B50_Click);
+            this.B50.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B49
             // 
@@ -357,6 +378,7 @@
             this.B49.TabIndex = 29;
             this.B49.UseVisualStyleBackColor = false;
             this.B49.Click += new System.EventHandler(this.B49_Click);
+            this.B49.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B48
             // 
@@ -367,6 +389,7 @@
             this.B48.TabIndex = 28;
             this.B48.UseVisualStyleBackColor = false;
             this.B48.Click += new System.EventHandler(this.B48_Click);
+            this.B48.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B47
             // 
@@ -377,6 +400,7 @@
             this.B47.TabIndex = 27;
             this.B47.UseVisualStyleBackColor = false;
             this.B47.Click += new System.EventHandler(this.B47_Click);
+            this.B47.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B46
             // 
@@ -387,6 +411,7 @@
             this.B46.TabIndex = 26;
             this.B46.UseVisualStyleBackColor = false;
             this.B46.Click += new System.EventHandler(this.B46_Click);
+            this.B46.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B45
             // 
@@ -397,6 +422,7 @@
             this.B45.TabIndex = 25;
             this.B45.UseVisualStyleBackColor = false;
             this.B45.Click += new System.EventHandler(this.B45_Click);
+            this.B45.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B44
             // 
@@ -407,6 +433,7 @@
             this.B44.TabIndex = 24;
             this.B44.UseVisualStyleBackColor = false;
             this.B44.Click += new System.EventHandler(this.B44_Click);
+            this.B44.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B43
             // 
@@ -417,6 +444,7 @@
             this.B43.TabIndex = 23;
             this.B43.UseVisualStyleBackColor = false;
             this.B43.Click += new System.EventHandler(this.B43_Click);
+            this.B43.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B42
             // 
@@ -427,6 +455,7 @@
             this.B42.TabIndex = 22;
             this.B42.UseVisualStyleBackColor = false;
             this.B42.Click += new System.EventHandler(this.B42_Click);
+            this.B42.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B41
             // 
@@ -437,6 +466,7 @@
             this.B41.TabIndex = 21;
             this.B41.UseVisualStyleBackColor = false;
             this.B41.Click += new System.EventHandler(this.B41_Click);
+            this.B41.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B60
             // 
@@ -447,6 +477,7 @@
             this.B60.TabIndex = 40;
             this.B60.UseVisualStyleBackColor = false;
             this.B60.Click += new System.EventHandler(this.B60_Click);
+            this.B60.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B59
             // 
@@ -457,6 +488,7 @@
             this.B59.TabIndex = 39;
             this.B59.UseVisualStyleBackColor = false;
             this.B59.Click += new System.EventHandler(this.B59_Click);
+            this.B59.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B58
             // 
@@ -467,6 +499,7 @@
             this.B58.TabIndex = 38;
             this.B58.UseVisualStyleBackColor = false;
             this.B58.Click += new System.EventHandler(this.B58_Click);
+            this.B58.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B57
             // 
@@ -477,6 +510,7 @@
             this.B57.TabIndex = 37;
             this.B57.UseVisualStyleBackColor = false;
             this.B57.Click += new System.EventHandler(this.B57_Click);
+            this.B57.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B56
             // 
@@ -487,6 +521,7 @@
             this.B56.TabIndex = 36;
             this.B56.UseVisualStyleBackColor = false;
             this.B56.Click += new System.EventHandler(this.B56_Click);
+            this.B56.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B55
             // 
@@ -497,6 +532,7 @@
             this.B55.TabIndex = 35;
             this.B55.UseVisualStyleBackColor = false;
             this.B55.Click += new System.EventHandler(this.B55_Click);
+            this.B55.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B54
             // 
@@ -507,6 +543,7 @@
             this.B54.TabIndex = 34;
             this.B54.UseVisualStyleBackColor = false;
             this.B54.Click += new System.EventHandler(this.B54_Click);
+            this.B54.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B53
             // 
@@ -517,6 +554,7 @@
             this.B53.TabIndex = 33;
             this.B53.UseVisualStyleBackColor = false;
             this.B53.Click += new System.EventHandler(this.B53_Click);
+            this.B53.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B52
             // 
@@ -527,6 +565,7 @@
             this.B52.TabIndex = 32;
             this.B52.UseVisualStyleBackColor = false;
             this.B52.Click += new System.EventHandler(this.B52_Click);
+            this.B52.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B51
             // 
@@ -537,6 +576,7 @@
             this.B51.TabIndex = 31;
             this.B51.UseVisualStyleBackColor = false;
             this.B51.Click += new System.EventHandler(this.B51_Click);
+            this.B51.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B70
             // 
@@ -547,6 +587,7 @@
             this.B70.TabIndex = 50;
             this.B70.UseVisualStyleBackColor = false;
             this.B70.Click += new System.EventHandler(this.B70_Click);
+            this.B70.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B69
             // 
@@ -557,6 +598,7 @@
             this.B69.TabIndex = 49;
             this.B69.UseVisualStyleBackColor = false;
             this.B69.Click += new System.EventHandler(this.B69_Click);
+            this.B69.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B68
             // 
@@ -567,6 +609,7 @@
             this.B68.TabIndex = 48;
             this.B68.UseVisualStyleBackColor = false;
             this.B68.Click += new System.EventHandler(this.B68_Click);
+            this.B68.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B67
             // 
@@ -577,6 +620,7 @@
             this.B67.TabIndex = 47;
             this.B67.UseVisualStyleBackColor = false;
             this.B67.Click += new System.EventHandler(this.B67_Click);
+            this.B67.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B66
             // 
@@ -587,6 +631,7 @@
             this.B66.TabIndex = 46;
             this.B66.UseVisualStyleBackColor = false;
             this.B66.Click += new System.EventHandler(this.B66_Click);
+            this.B66.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B65
             // 
@@ -597,6 +642,7 @@
             this.B65.TabIndex = 45;
             this.B65.UseVisualStyleBackColor = false;
             this.B65.Click += new System.EventHandler(this.B65_Click);
+            this.B65.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B64
             // 
@@ -607,6 +653,7 @@
             this.B64.TabIndex = 44;
             this.B64.UseVisualStyleBackColor = false;
             this.B64.Click += new System.EventHandler(this.B64_Click);
+            this.B64.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B63
             // 
@@ -617,6 +664,7 @@
             this.B63.TabIndex = 43;
             this.B63.UseVisualStyleBackColor = false;
             this.B63.Click += new System.EventHandler(this.B63_Click);
+            this.B63.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B62
             // 
@@ -627,6 +675,7 @@
             this.B62.TabIndex = 42;
             this.B62.UseVisualStyleBackColor = false;
             this.B62.Click += new System.EventHandler(this.B62_Click);
+            this.B62.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B61
             // 
@@ -637,6 +686,7 @@
             this.B61.TabIndex = 41;
             this.B61.UseVisualStyleBackColor = false;
             this.B61.Click += new System.EventHandler(this.B61_Click);
+            this.B61.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B80
             // 
@@ -647,6 +697,7 @@
             this.B80.TabIndex = 60;
             this.B80.UseVisualStyleBackColor = false;
             this.B80.Click += new System.EventHandler(this.B80_Click);
+            this.B80.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B79
             // 
@@ -657,6 +708,7 @@
             this.B79.TabIndex = 59;
             this.B79.UseVisualStyleBackColor = false;
             this.B79.Click += new System.EventHandler(this.B79_Click);
+            this.B79.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B78
             // 
@@ -667,6 +719,7 @@
             this.B78.TabIndex = 58;
             this.B78.UseVisualStyleBackColor = false;
             this.B78.Click += new System.EventHandler(this.B78_Click);
+            this.B78.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B77
             // 
@@ -677,6 +730,7 @@
             this.B77.TabIndex = 57;
             this.B77.UseVisualStyleBackColor = false;
             this.B77.Click += new System.EventHandler(this.B77_Click);
+            this.B77.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B76
             // 
@@ -687,6 +741,7 @@
             this.B76.TabIndex = 56;
             this.B76.UseVisualStyleBackColor = false;
             this.B76.Click += new System.EventHandler(this.B76_Click);
+            this.B76.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B75
             // 
@@ -697,6 +752,7 @@
             this.B75.TabIndex = 55;
             this.B75.UseVisualStyleBackColor = false;
             this.B75.Click += new System.EventHandler(this.B75_Click);
+            this.B75.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B74
             // 
@@ -707,6 +763,7 @@
             this.B74.TabIndex = 54;
             this.B74.UseVisualStyleBackColor = false;
             this.B74.Click += new System.EventHandler(this.B74_Click);
+            this.B74.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B73
             // 
@@ -717,6 +774,7 @@
             this.B73.TabIndex = 53;
             this.B73.UseVisualStyleBackColor = false;
             this.B73.Click += new System.EventHandler(this.B73_Click);
+            this.B73.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B72
             // 
@@ -727,6 +785,7 @@
             this.B72.TabIndex = 52;
             this.B72.UseVisualStyleBackColor = false;
             this.B72.Click += new System.EventHandler(this.B72_Click);
+            this.B72.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B71
             // 
@@ -737,6 +796,7 @@
             this.B71.TabIndex = 51;
             this.B71.UseVisualStyleBackColor = false;
             this.B71.Click += new System.EventHandler(this.B71_Click);
+            this.B71.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B90
             // 
@@ -747,6 +807,7 @@
             this.B90.TabIndex = 70;
             this.B90.UseVisualStyleBackColor = false;
             this.B90.Click += new System.EventHandler(this.B90_Click);
+            this.B90.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B89
             // 
@@ -757,6 +818,7 @@
             this.B89.TabIndex = 69;
             this.B89.UseVisualStyleBackColor = false;
             this.B89.Click += new System.EventHandler(this.B89_Click);
+            this.B89.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B88
             // 
@@ -767,6 +829,7 @@
             this.B88.TabIndex = 68;
             this.B88.UseVisualStyleBackColor = false;
             this.B88.Click += new System.EventHandler(this.B88_Click);
+            this.B88.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B87
             // 
@@ -777,6 +840,7 @@
             this.B87.TabIndex = 67;
             this.B87.UseVisualStyleBackColor = false;
             this.B87.Click += new System.EventHandler(this.B87_Click);
+            this.B87.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B86
             // 
@@ -787,6 +851,7 @@
             this.B86.TabIndex = 66;
             this.B86.UseVisualStyleBackColor = false;
             this.B86.Click += new System.EventHandler(this.B86_Click);
+            this.B86.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B85
             // 
@@ -797,6 +862,7 @@
             this.B85.TabIndex = 65;
             this.B85.UseVisualStyleBackColor = false;
             this.B85.Click += new System.EventHandler(this.B85_Click);
+            this.B85.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B84
             // 
@@ -807,6 +873,7 @@
             this.B84.TabIndex = 64;
             this.B84.UseVisualStyleBackColor = false;
             this.B84.Click += new System.EventHandler(this.B84_Click);
+            this.B84.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B83
             // 
@@ -817,6 +884,7 @@
             this.B83.TabIndex = 63;
             this.B83.UseVisualStyleBackColor = false;
             this.B83.Click += new System.EventHandler(this.B83_Click);
+            this.B83.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B82
             // 
@@ -827,6 +895,7 @@
             this.B82.TabIndex = 62;
             this.B82.UseVisualStyleBackColor = false;
             this.B82.Click += new System.EventHandler(this.B82_Click);
+            this.B82.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B81
             // 
@@ -837,6 +906,7 @@
             this.B81.TabIndex = 61;
             this.B81.UseVisualStyleBackColor = false;
             this.B81.Click += new System.EventHandler(this.B81_Click);
+            this.B81.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B100
             // 
@@ -847,8 +917,8 @@
             this.B100.TabIndex = 80;
             this.B100.UseVisualStyleBackColor = false;
             this.B100.Click += new System.EventHandler(this.B100_Click);
-            this.B100.MouseClick += new System.Windows.Forms.MouseEventHandler(this.B100_MouseClick);
-            this.B100.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B100_MouseDown);
+           
+            this.B100.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B99
             // 
@@ -859,6 +929,7 @@
             this.B99.TabIndex = 79;
             this.B99.UseVisualStyleBackColor = false;
             this.B99.Click += new System.EventHandler(this.B99_Click);
+            this.B99.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B98
             // 
@@ -869,6 +940,7 @@
             this.B98.TabIndex = 78;
             this.B98.UseVisualStyleBackColor = false;
             this.B98.Click += new System.EventHandler(this.B98_Click);
+            this.B98.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B97
             // 
@@ -879,6 +951,7 @@
             this.B97.TabIndex = 77;
             this.B97.UseVisualStyleBackColor = false;
             this.B97.Click += new System.EventHandler(this.B97_Click);
+            this.B97.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B96
             // 
@@ -889,6 +962,7 @@
             this.B96.TabIndex = 76;
             this.B96.UseVisualStyleBackColor = false;
             this.B96.Click += new System.EventHandler(this.B96_Click);
+            this.B96.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B95
             // 
@@ -899,6 +973,7 @@
             this.B95.TabIndex = 75;
             this.B95.UseVisualStyleBackColor = false;
             this.B95.Click += new System.EventHandler(this.B95_Click);
+            this.B95.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B94
             // 
@@ -909,6 +984,7 @@
             this.B94.TabIndex = 74;
             this.B94.UseVisualStyleBackColor = false;
             this.B94.Click += new System.EventHandler(this.B94_Click);
+            this.B94.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B93
             // 
@@ -919,6 +995,7 @@
             this.B93.TabIndex = 73;
             this.B93.UseVisualStyleBackColor = false;
             this.B93.Click += new System.EventHandler(this.B93_Click);
+            this.B93.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B92
             // 
@@ -929,6 +1006,7 @@
             this.B92.TabIndex = 72;
             this.B92.UseVisualStyleBackColor = false;
             this.B92.Click += new System.EventHandler(this.B92_Click);
+            this.B92.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B91
             // 
@@ -939,6 +1017,7 @@
             this.B91.TabIndex = 71;
             this.B91.UseVisualStyleBackColor = false;
             this.B91.Click += new System.EventHandler(this.B91_Click);
+            this.B91.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B20
             // 
@@ -949,6 +1028,7 @@
             this.B20.TabIndex = 90;
             this.B20.UseVisualStyleBackColor = false;
             this.B20.Click += new System.EventHandler(this.B20_Click);
+            this.B20.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B19
             // 
@@ -959,6 +1039,7 @@
             this.B19.TabIndex = 89;
             this.B19.UseVisualStyleBackColor = false;
             this.B19.Click += new System.EventHandler(this.B19_Click);
+            this.B19.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B18
             // 
@@ -969,6 +1050,7 @@
             this.B18.TabIndex = 88;
             this.B18.UseVisualStyleBackColor = false;
             this.B18.Click += new System.EventHandler(this.B18_Click);
+            this.B18.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B17
             // 
@@ -979,6 +1061,7 @@
             this.B17.TabIndex = 87;
             this.B17.UseVisualStyleBackColor = false;
             this.B17.Click += new System.EventHandler(this.B17_Click);
+            this.B17.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B16
             // 
@@ -989,6 +1072,7 @@
             this.B16.TabIndex = 86;
             this.B16.UseVisualStyleBackColor = false;
             this.B16.Click += new System.EventHandler(this.B16_Click);
+            this.B16.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B15
             // 
@@ -999,6 +1083,7 @@
             this.B15.TabIndex = 85;
             this.B15.UseVisualStyleBackColor = false;
             this.B15.Click += new System.EventHandler(this.B15_Click);
+            this.B15.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B14
             // 
@@ -1009,6 +1094,7 @@
             this.B14.TabIndex = 84;
             this.B14.UseVisualStyleBackColor = false;
             this.B14.Click += new System.EventHandler(this.B14_Click);
+            this.B14.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B13
             // 
@@ -1019,6 +1105,7 @@
             this.B13.TabIndex = 83;
             this.B13.UseVisualStyleBackColor = false;
             this.B13.Click += new System.EventHandler(this.B13_Click);
+            this.B13.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B12
             // 
@@ -1029,6 +1116,7 @@
             this.B12.TabIndex = 82;
             this.B12.UseVisualStyleBackColor = false;
             this.B12.Click += new System.EventHandler(this.B12_Click);
+            this.B12.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B11
             // 
@@ -1039,6 +1127,7 @@
             this.B11.TabIndex = 81;
             this.B11.UseVisualStyleBackColor = false;
             this.B11.Click += new System.EventHandler(this.B11_Click);
+            this.B11.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B10
             // 
@@ -1049,6 +1138,7 @@
             this.B10.TabIndex = 100;
             this.B10.UseVisualStyleBackColor = false;
             this.B10.Click += new System.EventHandler(this.B10_Click);
+            this.B10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B9
             // 
@@ -1059,6 +1149,7 @@
             this.B9.TabIndex = 99;
             this.B9.UseVisualStyleBackColor = false;
             this.B9.Click += new System.EventHandler(this.B9_Click);
+            this.B9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B8
             // 
@@ -1069,6 +1160,7 @@
             this.B8.TabIndex = 98;
             this.B8.UseVisualStyleBackColor = false;
             this.B8.Click += new System.EventHandler(this.B8_Click);
+            this.B8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B7
             // 
@@ -1079,6 +1171,7 @@
             this.B7.TabIndex = 97;
             this.B7.UseVisualStyleBackColor = false;
             this.B7.Click += new System.EventHandler(this.B7_Click);
+            this.B7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B6
             // 
@@ -1089,6 +1182,7 @@
             this.B6.TabIndex = 96;
             this.B6.UseVisualStyleBackColor = false;
             this.B6.Click += new System.EventHandler(this.B6_Click);
+            this.B6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B5
             // 
@@ -1099,6 +1193,7 @@
             this.B5.TabIndex = 95;
             this.B5.UseVisualStyleBackColor = false;
             this.B5.Click += new System.EventHandler(this.B5_Click);
+            this.B5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B4
             // 
@@ -1109,6 +1204,7 @@
             this.B4.TabIndex = 94;
             this.B4.UseVisualStyleBackColor = false;
             this.B4.Click += new System.EventHandler(this.B4_Click);
+            this.B4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B3
             // 
@@ -1119,6 +1215,7 @@
             this.B3.TabIndex = 93;
             this.B3.UseVisualStyleBackColor = false;
             this.B3.Click += new System.EventHandler(this.B3_Click);
+            this.B3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B2
             // 
@@ -1129,6 +1226,7 @@
             this.B2.TabIndex = 92;
             this.B2.UseVisualStyleBackColor = false;
             this.B2.Click += new System.EventHandler(this.B2_Click);
+            this.B2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B1
             // 
@@ -1139,6 +1237,7 @@
             this.B1.TabIndex = 91;
             this.B1.UseVisualStyleBackColor = false;
             this.B1.Click += new System.EventHandler(this.B1_Click);
+            this.B1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // RandomNum
             // 

@@ -4332,25 +4332,19 @@ namespace MindSweeper
             GreyTimer.Enabled = false;
             Greentmr.Enabled = true;
         }
+
+
         //-----------------------------------------------------------------------------------------\\
         // Bellow this is all the flags system 
-        private void B100_MouseClick(object sender, MouseEventArgs e)
+      
+
+        private void B10_MouseDown(object sender, MouseEventArgs e)
         {
             Button b = sender as Button;
-            if (e.Button == MouseButtons.Right)
+            if (e.Button == System.Windows.Forms.MouseButtons.Right)
             {
-                b.ForeColor = Color.Blue;
-            }
-
-        }
-        private void B100_MouseDown(object sender, MouseEventArgs e)
-        {
-            Button b = sender as Button;
-            if (e.Button == MouseButtons.Right)
-            {
-                b.ForeColor = Color.Blue;
+                b.BackColor = Color.Blue;
             }
         }
-
     }
 }
