@@ -4107,11 +4107,6 @@ namespace MindSweeper
 
             Resetbtn1.BackColor= Color.Gray;
 
-            label1.Text= "0";
-
-            GameTimer.Enabled = true;
-            GameTimer.Enabled=false;
-            GameTimer.Enabled = true;
 
             Greentmr.Enabled=false;
             GreyTimer.Enabled=false;
