@@ -847,6 +847,8 @@
             this.B100.TabIndex = 80;
             this.B100.UseVisualStyleBackColor = false;
             this.B100.Click += new System.EventHandler(this.B100_Click);
+            this.B100.MouseClick += new System.Windows.Forms.MouseEventHandler(this.B100_MouseClick);
+            this.B100.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B100_MouseDown);
             // 
             // B99
             // 
