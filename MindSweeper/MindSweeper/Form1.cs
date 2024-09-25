@@ -3893,25 +3893,6 @@ namespace MindSweeper
             B36.Text = "2";
         }
        
-
-
-      
-
-       
-
-       
-      
-
-        
-
-       
-
-      
-
-    
-
-  
-
     private void B75_Click(object sender, EventArgs e)
     {
         int A = Random.Next(1, 3);
@@ -4080,7 +4061,8 @@ namespace MindSweeper
             B91.Text = "1";
 
         }
-
+        //-----------------------------------------------------------------------------------------\\
+        //Sets the reset button to flash green and grey 
         private void timer1_Tick(object sender, EventArgs e)
         {
             Resetbtn1.BackColor = Color.Green;
@@ -4105,12 +4087,14 @@ namespace MindSweeper
             B87.Text = "";
             B46.Text = "";
 
-            Resetbtn1.BackColor= Color.Gray;
+          
 
-
+            //-----------------------------------------------------------------------------------------\\
+            //Bellow this is disableing all te timers and setting the color back
             Greentmr.Enabled=false;
             GreyTimer.Enabled=false;
             this.BackColor = Color.White;
+            Resetbtn1.BackColor = Color.Gray;
             //-----------------------------------------------------------------------------------------\\
             //Bellow this point sets the pattern of the buttons like green/lime
             B1.BackColor = Color.Green;
