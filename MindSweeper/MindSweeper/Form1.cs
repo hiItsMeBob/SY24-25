@@ -4107,6 +4107,12 @@ namespace MindSweeper
 
             Resetbtn1.BackColor= Color.Gray;
 
+            label1.Text= "0";
+
+            GameTimer.Enabled = true;
+            GameTimer.Enabled=false;
+            GameTimer.Enabled = true;
+
             Greentmr.Enabled=false;
             GreyTimer.Enabled=false;
             this.BackColor = Color.White;
@@ -4345,6 +4351,15 @@ namespace MindSweeper
             {
                 b.BackColor = Color.Blue;
             }
+        }
+        //-----------------------------------------------------------------------------------------\\
+        // Bellow this is the timer for the game 
+        int x = 0;  
+        private void GameTimer_Tick(object sender, EventArgs e)
+        {
+            x++;
+
+            label1.Text= x.ToString();
         }
     }
 }

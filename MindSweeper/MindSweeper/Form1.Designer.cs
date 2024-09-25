@@ -136,6 +136,10 @@
             this.RESTARTlabel = new System.Windows.Forms.Label();
             this.Greentmr = new System.Windows.Forms.Timer(this.components);
             this.GreyTimer = new System.Windows.Forms.Timer(this.components);
+            this.GameTimer = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // B21
@@ -917,7 +921,6 @@
             this.B100.TabIndex = 80;
             this.B100.UseVisualStyleBackColor = false;
             this.B100.Click += new System.EventHandler(this.B100_Click);
-           
             this.B100.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B99
@@ -1289,11 +1292,39 @@
             // 
             this.GreyTimer.Tick += new System.EventHandler(this.GreyTimer_Tick);
             // 
+            // GameTimer
+            // 
+            this.GameTimer.Enabled = true;
+            this.GameTimer.Interval = 1000;
+            this.GameTimer.Tick += new System.EventHandler(this.GameTimer_Tick);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(71, 135);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(14, 16);
+            this.label1.TabIndex = 105;
+            this.label1.Text = "0";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Image = global::MindSweeper.Properties.Resources.MinesweeperTimer;
+            this.pictureBox1.Location = new System.Drawing.Point(26, 25);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(105, 104);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 106;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 509);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.RESTARTlabel);
             this.Controls.Add(this.Resetbtn1);
             this.Controls.Add(this.NumLable);
@@ -1400,6 +1431,7 @@
             this.Controls.Add(this.B21);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1514,6 +1546,9 @@
         private System.Windows.Forms.Label RESTARTlabel;
         private System.Windows.Forms.Timer Greentmr;
         private System.Windows.Forms.Timer GreyTimer;
+        private System.Windows.Forms.Timer GameTimer;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
