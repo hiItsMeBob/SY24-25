@@ -4072,7 +4072,10 @@ namespace MindSweeper
         }
 
         private void Resetbtn1_Click(object sender, EventArgs e)
+            
         {
+            GameTimer.Enabled = false;
+          
             //-----------------------------------------------------------------------------------------\\
             //This clears the M's from the mines 
             B17.Text = "";
@@ -4339,6 +4342,33 @@ namespace MindSweeper
             x++;
 
             label1.Text= x.ToString();
+        }
+        //-----------------------------------------------------------------------------------------\\
+        // Added a welcome screen
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Visible = false;
+            button1.Visible = false;
+            GameTimer.Enabled = true;
+            NoBtn.Visible = false;
+        }
+        //-----------------------------------------------------------------------------------------\\
+        // Added a No btn to the bored 
+        private void NoBtn_Click(object sender, EventArgs e)
+        {
+            SadPic.Visible = true;
+            SadTmr.Enabled = true;
+        }
+
+        private void SadTmr_Tick(object sender, EventArgs e)
+        {
+            GunPic.Visible = true;
+            GunTmr.Enabled = true;
+        }
+        
+        private void GunTmr_Tick(object sender, EventArgs e)
+        {
+            this.Close ();
         }
     }
 }

@@ -138,7 +138,17 @@
             this.GreyTimer = new System.Windows.Forms.Timer(this.components);
             this.GameTimer = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.NoBtn = new System.Windows.Forms.Button();
+            this.SadTmr = new System.Windows.Forms.Timer(this.components);
+            this.GunTmr = new System.Windows.Forms.Timer(this.components);
+            this.GunPic = new System.Windows.Forms.PictureBox();
+            this.SadPic = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.GunPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SadPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -1294,7 +1304,6 @@
             // 
             // GameTimer
             // 
-            this.GameTimer.Enabled = true;
             this.GameTimer.Interval = 1000;
             this.GameTimer.Tick += new System.EventHandler(this.GameTimer_Tick);
             // 
@@ -1306,6 +1315,68 @@
             this.label1.Size = new System.Drawing.Size(14, 16);
             this.label1.TabIndex = 105;
             this.label1.Text = "0";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(135, 355);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(185, 111);
+            this.button1.TabIndex = 108;
+            this.button1.Text = "YES!";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // NoBtn
+            // 
+            this.NoBtn.Location = new System.Drawing.Point(463, 355);
+            this.NoBtn.Name = "NoBtn";
+            this.NoBtn.Size = new System.Drawing.Size(185, 111);
+            this.NoBtn.TabIndex = 109;
+            this.NoBtn.Text = "NO :(";
+            this.NoBtn.UseVisualStyleBackColor = true;
+            this.NoBtn.Click += new System.EventHandler(this.NoBtn_Click);
+            // 
+            // SadTmr
+            // 
+            this.SadTmr.Interval = 1000;
+            this.SadTmr.Tick += new System.EventHandler(this.SadTmr_Tick);
+            // 
+            // GunTmr
+            // 
+            this.GunTmr.Interval = 2000;
+            this.GunTmr.Tick += new System.EventHandler(this.GunTmr_Tick);
+            // 
+            // GunPic
+            // 
+            this.GunPic.Image = global::MindSweeper.Properties.Resources.download__1_1;
+            this.GunPic.Location = new System.Drawing.Point(534, 25);
+            this.GunPic.Name = "GunPic";
+            this.GunPic.Size = new System.Drawing.Size(287, 182);
+            this.GunPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.GunPic.TabIndex = 111;
+            this.GunPic.TabStop = false;
+            this.GunPic.Visible = false;
+            // 
+            // SadPic
+            // 
+            this.SadPic.Image = global::MindSweeper.Properties.Resources.download__1_;
+            this.SadPic.Location = new System.Drawing.Point(91, 17);
+            this.SadPic.Name = "SadPic";
+            this.SadPic.Size = new System.Drawing.Size(437, 288);
+            this.SadPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.SadPic.TabIndex = 110;
+            this.SadPic.TabStop = false;
+            this.SadPic.Visible = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::MindSweeper.Properties.Resources.download;
+            this.pictureBox2.Location = new System.Drawing.Point(-1, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(836, 514);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 107;
+            this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -1323,6 +1394,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 509);
+            this.Controls.Add(this.GunPic);
+            this.Controls.Add(this.SadPic);
+            this.Controls.Add(this.NoBtn);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.RESTARTlabel);
@@ -1431,6 +1507,9 @@
             this.Controls.Add(this.B21);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.GunPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SadPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1549,6 +1628,13 @@
         private System.Windows.Forms.Timer GameTimer;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button NoBtn;
+        private System.Windows.Forms.PictureBox SadPic;
+        private System.Windows.Forms.Timer SadTmr;
+        private System.Windows.Forms.Timer GunTmr;
+        private System.Windows.Forms.PictureBox GunPic;
     }
 }
 
