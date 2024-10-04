@@ -4336,7 +4336,8 @@ namespace MindSweeper
         }
         //-----------------------------------------------------------------------------------------\\
         // Bellow this is the timer for the game 
-        int x = 0;  
+        decimal x = 0;  
+            
         private void GameTimer_Tick(object sender, EventArgs e)
         {
             x++;
@@ -4344,13 +4345,14 @@ namespace MindSweeper
             label1.Text= x.ToString();
         }
         //-----------------------------------------------------------------------------------------\\
-        // Added a welcome screen
+        // Added a start screen
         private void button1_Click(object sender, EventArgs e)
         {
             pictureBox2.Visible = false;
             button1.Visible = false;
             GameTimer.Enabled = true;
             NoBtn.Visible = false;
+            
         }
         //-----------------------------------------------------------------------------------------\\
         // Added a No btn to the bored 
@@ -4370,5 +4372,14 @@ namespace MindSweeper
         {
             this.Close ();
         }
+
+        private void SadPic_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //-----------------------------------------------------------------------------------------\\
+        // Added a Win screen 
+
     }
 }

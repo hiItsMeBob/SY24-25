@@ -154,7 +154,7 @@
             // 
             // B21
             // 
-            this.B21.BackColor = System.Drawing.Color.ForestGreen;
+            this.B21.BackColor = System.Drawing.Color.Silver;
             this.B21.Location = new System.Drawing.Point(179, 91);
             this.B21.Name = "B21";
             this.B21.Size = new System.Drawing.Size(43, 38);
@@ -165,7 +165,7 @@
             // 
             // B22
             // 
-            this.B22.BackColor = System.Drawing.Color.Lime;
+            this.B22.BackColor = System.Drawing.Color.Silver;
             this.B22.Location = new System.Drawing.Point(228, 91);
             this.B22.Name = "B22";
             this.B22.Size = new System.Drawing.Size(43, 38);
@@ -176,7 +176,7 @@
             // 
             // B23
             // 
-            this.B23.BackColor = System.Drawing.Color.ForestGreen;
+            this.B23.BackColor = System.Drawing.Color.Silver;
             this.B23.Location = new System.Drawing.Point(277, 91);
             this.B23.Name = "B23";
             this.B23.Size = new System.Drawing.Size(43, 38);
@@ -187,7 +187,7 @@
             // 
             // B24
             // 
-            this.B24.BackColor = System.Drawing.Color.Lime;
+            this.B24.BackColor = System.Drawing.Color.Silver;
             this.B24.Location = new System.Drawing.Point(326, 91);
             this.B24.Name = "B24";
             this.B24.Size = new System.Drawing.Size(43, 38);
@@ -198,7 +198,7 @@
             // 
             // B25
             // 
-            this.B25.BackColor = System.Drawing.Color.ForestGreen;
+            this.B25.BackColor = System.Drawing.Color.Silver;
             this.B25.Location = new System.Drawing.Point(375, 91);
             this.B25.Name = "B25";
             this.B25.Size = new System.Drawing.Size(43, 38);
@@ -209,7 +209,7 @@
             // 
             // B26
             // 
-            this.B26.BackColor = System.Drawing.Color.Lime;
+            this.B26.BackColor = System.Drawing.Color.Silver;
             this.B26.Location = new System.Drawing.Point(424, 91);
             this.B26.Name = "B26";
             this.B26.Size = new System.Drawing.Size(43, 38);
@@ -220,7 +220,7 @@
             // 
             // B27
             // 
-            this.B27.BackColor = System.Drawing.Color.ForestGreen;
+            this.B27.BackColor = System.Drawing.Color.Silver;
             this.B27.Location = new System.Drawing.Point(473, 91);
             this.B27.Name = "B27";
             this.B27.Size = new System.Drawing.Size(43, 38);
@@ -231,7 +231,7 @@
             // 
             // B28
             // 
-            this.B28.BackColor = System.Drawing.Color.Lime;
+            this.B28.BackColor = System.Drawing.Color.Silver;
             this.B28.Location = new System.Drawing.Point(522, 91);
             this.B28.Name = "B28";
             this.B28.Size = new System.Drawing.Size(43, 38);
@@ -242,29 +242,27 @@
             // 
             // B29
             // 
-            this.B29.BackColor = System.Drawing.Color.ForestGreen;
+            this.B29.BackColor = System.Drawing.Color.Silver;
             this.B29.Location = new System.Drawing.Point(571, 91);
             this.B29.Name = "B29";
             this.B29.Size = new System.Drawing.Size(43, 38);
             this.B29.TabIndex = 9;
             this.B29.UseVisualStyleBackColor = false;
-            this.B29.Click += new System.EventHandler(this.B29_Click);
             this.B29.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B30
             // 
-            this.B30.BackColor = System.Drawing.Color.Lime;
+            this.B30.BackColor = System.Drawing.Color.Silver;
             this.B30.Location = new System.Drawing.Point(620, 91);
             this.B30.Name = "B30";
             this.B30.Size = new System.Drawing.Size(43, 38);
             this.B30.TabIndex = 10;
             this.B30.UseVisualStyleBackColor = false;
-            this.B30.Click += new System.EventHandler(this.B30_Click);
             this.B30.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B40
             // 
-            this.B40.BackColor = System.Drawing.Color.ForestGreen;
+            this.B40.BackColor = System.Drawing.Color.Silver;
             this.B40.Location = new System.Drawing.Point(620, 135);
             this.B40.Name = "B40";
             this.B40.Size = new System.Drawing.Size(43, 38);
@@ -275,7 +273,7 @@
             // 
             // B39
             // 
-            this.B39.BackColor = System.Drawing.Color.Lime;
+            this.B39.BackColor = System.Drawing.Color.Silver;
             this.B39.Location = new System.Drawing.Point(571, 135);
             this.B39.Name = "B39";
             this.B39.Size = new System.Drawing.Size(43, 38);
@@ -286,18 +284,17 @@
             // 
             // B38
             // 
-            this.B38.BackColor = System.Drawing.Color.ForestGreen;
+            this.B38.BackColor = System.Drawing.Color.Silver;
             this.B38.Location = new System.Drawing.Point(522, 135);
             this.B38.Name = "B38";
             this.B38.Size = new System.Drawing.Size(43, 38);
             this.B38.TabIndex = 18;
             this.B38.UseVisualStyleBackColor = false;
-            this.B38.Click += new System.EventHandler(this.B38_Click);
             this.B38.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B37
             // 
-            this.B37.BackColor = System.Drawing.Color.Lime;
+            this.B37.BackColor = System.Drawing.Color.Silver;
             this.B37.Location = new System.Drawing.Point(473, 135);
             this.B37.Name = "B37";
             this.B37.Size = new System.Drawing.Size(43, 38);
@@ -308,7 +305,7 @@
             // 
             // B36
             // 
-            this.B36.BackColor = System.Drawing.Color.ForestGreen;
+            this.B36.BackColor = System.Drawing.Color.Silver;
             this.B36.Location = new System.Drawing.Point(424, 135);
             this.B36.Name = "B36";
             this.B36.Size = new System.Drawing.Size(43, 38);
@@ -319,172 +316,157 @@
             // 
             // B35
             // 
-            this.B35.BackColor = System.Drawing.Color.Lime;
+            this.B35.BackColor = System.Drawing.Color.Silver;
             this.B35.Location = new System.Drawing.Point(375, 135);
             this.B35.Name = "B35";
             this.B35.Size = new System.Drawing.Size(43, 38);
             this.B35.TabIndex = 15;
             this.B35.UseVisualStyleBackColor = false;
-            this.B35.Click += new System.EventHandler(this.B35_Click);
             this.B35.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B34
             // 
-            this.B34.BackColor = System.Drawing.Color.ForestGreen;
+            this.B34.BackColor = System.Drawing.Color.Silver;
             this.B34.Location = new System.Drawing.Point(326, 135);
             this.B34.Name = "B34";
             this.B34.Size = new System.Drawing.Size(43, 38);
             this.B34.TabIndex = 14;
             this.B34.UseVisualStyleBackColor = false;
-            this.B34.Click += new System.EventHandler(this.B34_Click);
             this.B34.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B33
             // 
-            this.B33.BackColor = System.Drawing.Color.Lime;
+            this.B33.BackColor = System.Drawing.Color.Silver;
             this.B33.Location = new System.Drawing.Point(277, 135);
             this.B33.Name = "B33";
             this.B33.Size = new System.Drawing.Size(43, 38);
             this.B33.TabIndex = 13;
             this.B33.UseVisualStyleBackColor = false;
-            this.B33.Click += new System.EventHandler(this.B33_Click);
             this.B33.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B32
             // 
-            this.B32.BackColor = System.Drawing.Color.ForestGreen;
+            this.B32.BackColor = System.Drawing.Color.Silver;
             this.B32.Location = new System.Drawing.Point(228, 135);
             this.B32.Name = "B32";
             this.B32.Size = new System.Drawing.Size(43, 38);
             this.B32.TabIndex = 12;
             this.B32.UseVisualStyleBackColor = false;
-            this.B32.Click += new System.EventHandler(this.B32_Click);
             this.B32.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B31
             // 
-            this.B31.BackColor = System.Drawing.Color.Lime;
+            this.B31.BackColor = System.Drawing.Color.Silver;
             this.B31.Location = new System.Drawing.Point(179, 135);
             this.B31.Name = "B31";
             this.B31.Size = new System.Drawing.Size(43, 38);
             this.B31.TabIndex = 11;
             this.B31.UseVisualStyleBackColor = false;
-            this.B31.Click += new System.EventHandler(this.B31_Click);
             this.B31.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B50
             // 
-            this.B50.BackColor = System.Drawing.Color.Lime;
+            this.B50.BackColor = System.Drawing.Color.Silver;
             this.B50.Location = new System.Drawing.Point(620, 179);
             this.B50.Name = "B50";
             this.B50.Size = new System.Drawing.Size(43, 38);
             this.B50.TabIndex = 30;
             this.B50.UseVisualStyleBackColor = false;
-            this.B50.Click += new System.EventHandler(this.B50_Click);
             this.B50.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B49
             // 
-            this.B49.BackColor = System.Drawing.Color.ForestGreen;
+            this.B49.BackColor = System.Drawing.Color.Silver;
             this.B49.Location = new System.Drawing.Point(571, 179);
             this.B49.Name = "B49";
             this.B49.Size = new System.Drawing.Size(43, 38);
             this.B49.TabIndex = 29;
             this.B49.UseVisualStyleBackColor = false;
-            this.B49.Click += new System.EventHandler(this.B49_Click);
             this.B49.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B48
             // 
-            this.B48.BackColor = System.Drawing.Color.Lime;
+            this.B48.BackColor = System.Drawing.Color.Silver;
             this.B48.Location = new System.Drawing.Point(522, 179);
             this.B48.Name = "B48";
             this.B48.Size = new System.Drawing.Size(43, 38);
             this.B48.TabIndex = 28;
             this.B48.UseVisualStyleBackColor = false;
-            this.B48.Click += new System.EventHandler(this.B48_Click);
             this.B48.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B47
             // 
-            this.B47.BackColor = System.Drawing.Color.ForestGreen;
+            this.B47.BackColor = System.Drawing.Color.Silver;
             this.B47.Location = new System.Drawing.Point(473, 179);
             this.B47.Name = "B47";
             this.B47.Size = new System.Drawing.Size(43, 38);
             this.B47.TabIndex = 27;
             this.B47.UseVisualStyleBackColor = false;
-            this.B47.Click += new System.EventHandler(this.B47_Click);
             this.B47.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B46
             // 
-            this.B46.BackColor = System.Drawing.Color.Lime;
+            this.B46.BackColor = System.Drawing.Color.Silver;
             this.B46.Location = new System.Drawing.Point(424, 179);
             this.B46.Name = "B46";
             this.B46.Size = new System.Drawing.Size(43, 38);
             this.B46.TabIndex = 26;
             this.B46.UseVisualStyleBackColor = false;
-            this.B46.Click += new System.EventHandler(this.B46_Click);
             this.B46.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B45
             // 
-            this.B45.BackColor = System.Drawing.Color.ForestGreen;
+            this.B45.BackColor = System.Drawing.Color.Silver;
             this.B45.Location = new System.Drawing.Point(375, 179);
             this.B45.Name = "B45";
             this.B45.Size = new System.Drawing.Size(43, 38);
             this.B45.TabIndex = 25;
             this.B45.UseVisualStyleBackColor = false;
-            this.B45.Click += new System.EventHandler(this.B45_Click);
             this.B45.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B44
             // 
-            this.B44.BackColor = System.Drawing.Color.Lime;
+            this.B44.BackColor = System.Drawing.Color.Silver;
             this.B44.Location = new System.Drawing.Point(326, 179);
             this.B44.Name = "B44";
             this.B44.Size = new System.Drawing.Size(43, 38);
             this.B44.TabIndex = 24;
             this.B44.UseVisualStyleBackColor = false;
-            this.B44.Click += new System.EventHandler(this.B44_Click);
             this.B44.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B43
             // 
-            this.B43.BackColor = System.Drawing.Color.ForestGreen;
+            this.B43.BackColor = System.Drawing.Color.Silver;
             this.B43.Location = new System.Drawing.Point(277, 179);
             this.B43.Name = "B43";
             this.B43.Size = new System.Drawing.Size(43, 38);
             this.B43.TabIndex = 23;
             this.B43.UseVisualStyleBackColor = false;
-            this.B43.Click += new System.EventHandler(this.B43_Click);
             this.B43.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B42
             // 
-            this.B42.BackColor = System.Drawing.Color.Lime;
+            this.B42.BackColor = System.Drawing.Color.Silver;
             this.B42.Location = new System.Drawing.Point(228, 179);
             this.B42.Name = "B42";
             this.B42.Size = new System.Drawing.Size(43, 38);
             this.B42.TabIndex = 22;
             this.B42.UseVisualStyleBackColor = false;
-            this.B42.Click += new System.EventHandler(this.B42_Click);
             this.B42.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B41
             // 
-            this.B41.BackColor = System.Drawing.Color.ForestGreen;
+            this.B41.BackColor = System.Drawing.Color.Silver;
             this.B41.Location = new System.Drawing.Point(179, 179);
             this.B41.Name = "B41";
             this.B41.Size = new System.Drawing.Size(43, 38);
             this.B41.TabIndex = 21;
             this.B41.UseVisualStyleBackColor = false;
-            this.B41.Click += new System.EventHandler(this.B41_Click);
             this.B41.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B60
             // 
-            this.B60.BackColor = System.Drawing.Color.ForestGreen;
+            this.B60.BackColor = System.Drawing.Color.Silver;
             this.B60.Location = new System.Drawing.Point(620, 223);
             this.B60.Name = "B60";
             this.B60.Size = new System.Drawing.Size(43, 38);
@@ -495,128 +477,117 @@
             // 
             // B59
             // 
-            this.B59.BackColor = System.Drawing.Color.Lime;
+            this.B59.BackColor = System.Drawing.Color.Silver;
             this.B59.Location = new System.Drawing.Point(571, 223);
             this.B59.Name = "B59";
             this.B59.Size = new System.Drawing.Size(43, 38);
             this.B59.TabIndex = 39;
             this.B59.UseVisualStyleBackColor = false;
-            this.B59.Click += new System.EventHandler(this.B59_Click);
             this.B59.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B58
             // 
-            this.B58.BackColor = System.Drawing.Color.ForestGreen;
+            this.B58.BackColor = System.Drawing.Color.Silver;
             this.B58.Location = new System.Drawing.Point(522, 223);
             this.B58.Name = "B58";
             this.B58.Size = new System.Drawing.Size(43, 38);
             this.B58.TabIndex = 38;
             this.B58.UseVisualStyleBackColor = false;
-            this.B58.Click += new System.EventHandler(this.B58_Click);
             this.B58.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B57
             // 
-            this.B57.BackColor = System.Drawing.Color.Lime;
+            this.B57.BackColor = System.Drawing.Color.Silver;
             this.B57.Location = new System.Drawing.Point(473, 223);
             this.B57.Name = "B57";
             this.B57.Size = new System.Drawing.Size(43, 38);
             this.B57.TabIndex = 37;
             this.B57.UseVisualStyleBackColor = false;
-            this.B57.Click += new System.EventHandler(this.B57_Click);
             this.B57.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B56
             // 
-            this.B56.BackColor = System.Drawing.Color.ForestGreen;
+            this.B56.BackColor = System.Drawing.Color.Silver;
             this.B56.Location = new System.Drawing.Point(424, 223);
             this.B56.Name = "B56";
             this.B56.Size = new System.Drawing.Size(43, 38);
             this.B56.TabIndex = 36;
             this.B56.UseVisualStyleBackColor = false;
-            this.B56.Click += new System.EventHandler(this.B56_Click);
             this.B56.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B55
             // 
-            this.B55.BackColor = System.Drawing.Color.Lime;
+            this.B55.BackColor = System.Drawing.Color.Silver;
             this.B55.Location = new System.Drawing.Point(375, 223);
             this.B55.Name = "B55";
             this.B55.Size = new System.Drawing.Size(43, 38);
             this.B55.TabIndex = 35;
             this.B55.UseVisualStyleBackColor = false;
-            this.B55.Click += new System.EventHandler(this.B55_Click);
             this.B55.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B54
             // 
-            this.B54.BackColor = System.Drawing.Color.ForestGreen;
+            this.B54.BackColor = System.Drawing.Color.Silver;
             this.B54.Location = new System.Drawing.Point(326, 223);
             this.B54.Name = "B54";
             this.B54.Size = new System.Drawing.Size(43, 38);
             this.B54.TabIndex = 34;
             this.B54.UseVisualStyleBackColor = false;
-            this.B54.Click += new System.EventHandler(this.B54_Click);
             this.B54.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B53
             // 
-            this.B53.BackColor = System.Drawing.Color.Lime;
+            this.B53.BackColor = System.Drawing.Color.Silver;
             this.B53.Location = new System.Drawing.Point(277, 223);
             this.B53.Name = "B53";
             this.B53.Size = new System.Drawing.Size(43, 38);
             this.B53.TabIndex = 33;
             this.B53.UseVisualStyleBackColor = false;
-            this.B53.Click += new System.EventHandler(this.B53_Click);
             this.B53.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B52
             // 
-            this.B52.BackColor = System.Drawing.Color.ForestGreen;
+            this.B52.BackColor = System.Drawing.Color.Silver;
             this.B52.Location = new System.Drawing.Point(228, 223);
             this.B52.Name = "B52";
             this.B52.Size = new System.Drawing.Size(43, 38);
             this.B52.TabIndex = 32;
             this.B52.UseVisualStyleBackColor = false;
-            this.B52.Click += new System.EventHandler(this.B52_Click);
             this.B52.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B51
             // 
-            this.B51.BackColor = System.Drawing.Color.Lime;
+            this.B51.BackColor = System.Drawing.Color.Silver;
             this.B51.Location = new System.Drawing.Point(179, 223);
             this.B51.Name = "B51";
             this.B51.Size = new System.Drawing.Size(43, 38);
             this.B51.TabIndex = 31;
             this.B51.UseVisualStyleBackColor = false;
-            this.B51.Click += new System.EventHandler(this.B51_Click);
             this.B51.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B70
             // 
-            this.B70.BackColor = System.Drawing.Color.Lime;
+            this.B70.BackColor = System.Drawing.Color.Silver;
             this.B70.Location = new System.Drawing.Point(620, 267);
             this.B70.Name = "B70";
             this.B70.Size = new System.Drawing.Size(43, 38);
             this.B70.TabIndex = 50;
             this.B70.UseVisualStyleBackColor = false;
-            this.B70.Click += new System.EventHandler(this.B70_Click);
             this.B70.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B69
             // 
-            this.B69.BackColor = System.Drawing.Color.ForestGreen;
+            this.B69.BackColor = System.Drawing.Color.Silver;
             this.B69.Location = new System.Drawing.Point(571, 267);
             this.B69.Name = "B69";
             this.B69.Size = new System.Drawing.Size(43, 38);
             this.B69.TabIndex = 49;
             this.B69.UseVisualStyleBackColor = false;
-            this.B69.Click += new System.EventHandler(this.B69_Click);
             this.B69.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B68
             // 
-            this.B68.BackColor = System.Drawing.Color.Lime;
+            this.B68.BackColor = System.Drawing.Color.Silver;
             this.B68.Location = new System.Drawing.Point(522, 267);
             this.B68.Name = "B68";
             this.B68.Size = new System.Drawing.Size(43, 38);
@@ -627,7 +598,7 @@
             // 
             // B67
             // 
-            this.B67.BackColor = System.Drawing.Color.ForestGreen;
+            this.B67.BackColor = System.Drawing.Color.Silver;
             this.B67.Location = new System.Drawing.Point(473, 267);
             this.B67.Name = "B67";
             this.B67.Size = new System.Drawing.Size(43, 38);
@@ -638,7 +609,7 @@
             // 
             // B66
             // 
-            this.B66.BackColor = System.Drawing.Color.Lime;
+            this.B66.BackColor = System.Drawing.Color.Silver;
             this.B66.Location = new System.Drawing.Point(424, 267);
             this.B66.Name = "B66";
             this.B66.Size = new System.Drawing.Size(43, 38);
@@ -649,7 +620,7 @@
             // 
             // B65
             // 
-            this.B65.BackColor = System.Drawing.Color.ForestGreen;
+            this.B65.BackColor = System.Drawing.Color.Silver;
             this.B65.Location = new System.Drawing.Point(375, 267);
             this.B65.Name = "B65";
             this.B65.Size = new System.Drawing.Size(43, 38);
@@ -660,7 +631,7 @@
             // 
             // B64
             // 
-            this.B64.BackColor = System.Drawing.Color.Lime;
+            this.B64.BackColor = System.Drawing.Color.Silver;
             this.B64.Location = new System.Drawing.Point(326, 267);
             this.B64.Name = "B64";
             this.B64.Size = new System.Drawing.Size(43, 38);
@@ -671,7 +642,7 @@
             // 
             // B63
             // 
-            this.B63.BackColor = System.Drawing.Color.ForestGreen;
+            this.B63.BackColor = System.Drawing.Color.Silver;
             this.B63.Location = new System.Drawing.Point(277, 267);
             this.B63.Name = "B63";
             this.B63.Size = new System.Drawing.Size(43, 38);
@@ -682,7 +653,7 @@
             // 
             // B62
             // 
-            this.B62.BackColor = System.Drawing.Color.Lime;
+            this.B62.BackColor = System.Drawing.Color.Silver;
             this.B62.Location = new System.Drawing.Point(228, 267);
             this.B62.Name = "B62";
             this.B62.Size = new System.Drawing.Size(43, 38);
@@ -693,7 +664,7 @@
             // 
             // B61
             // 
-            this.B61.BackColor = System.Drawing.Color.ForestGreen;
+            this.B61.BackColor = System.Drawing.Color.Silver;
             this.B61.Location = new System.Drawing.Point(179, 267);
             this.B61.Name = "B61";
             this.B61.Size = new System.Drawing.Size(43, 38);
@@ -704,227 +675,207 @@
             // 
             // B80
             // 
-            this.B80.BackColor = System.Drawing.Color.ForestGreen;
+            this.B80.BackColor = System.Drawing.Color.Silver;
             this.B80.Location = new System.Drawing.Point(620, 311);
             this.B80.Name = "B80";
             this.B80.Size = new System.Drawing.Size(43, 38);
             this.B80.TabIndex = 60;
             this.B80.UseVisualStyleBackColor = false;
-            this.B80.Click += new System.EventHandler(this.B80_Click);
             this.B80.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B79
             // 
-            this.B79.BackColor = System.Drawing.Color.Lime;
+            this.B79.BackColor = System.Drawing.Color.Silver;
             this.B79.Location = new System.Drawing.Point(571, 311);
             this.B79.Name = "B79";
             this.B79.Size = new System.Drawing.Size(43, 38);
             this.B79.TabIndex = 59;
             this.B79.UseVisualStyleBackColor = false;
-            this.B79.Click += new System.EventHandler(this.B79_Click);
             this.B79.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B78
             // 
-            this.B78.BackColor = System.Drawing.Color.ForestGreen;
+            this.B78.BackColor = System.Drawing.Color.Silver;
             this.B78.Location = new System.Drawing.Point(522, 311);
             this.B78.Name = "B78";
             this.B78.Size = new System.Drawing.Size(43, 38);
             this.B78.TabIndex = 58;
             this.B78.UseVisualStyleBackColor = false;
-            this.B78.Click += new System.EventHandler(this.B78_Click);
             this.B78.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B77
             // 
-            this.B77.BackColor = System.Drawing.Color.Lime;
+            this.B77.BackColor = System.Drawing.Color.Silver;
             this.B77.Location = new System.Drawing.Point(473, 311);
             this.B77.Name = "B77";
             this.B77.Size = new System.Drawing.Size(43, 38);
             this.B77.TabIndex = 57;
             this.B77.UseVisualStyleBackColor = false;
-            this.B77.Click += new System.EventHandler(this.B77_Click);
             this.B77.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B76
             // 
-            this.B76.BackColor = System.Drawing.Color.ForestGreen;
+            this.B76.BackColor = System.Drawing.Color.Silver;
             this.B76.Location = new System.Drawing.Point(424, 311);
             this.B76.Name = "B76";
             this.B76.Size = new System.Drawing.Size(43, 38);
             this.B76.TabIndex = 56;
             this.B76.UseVisualStyleBackColor = false;
-            this.B76.Click += new System.EventHandler(this.B76_Click);
             this.B76.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B75
             // 
-            this.B75.BackColor = System.Drawing.Color.Lime;
+            this.B75.BackColor = System.Drawing.Color.Silver;
             this.B75.Location = new System.Drawing.Point(375, 311);
             this.B75.Name = "B75";
             this.B75.Size = new System.Drawing.Size(43, 38);
             this.B75.TabIndex = 55;
             this.B75.UseVisualStyleBackColor = false;
-            this.B75.Click += new System.EventHandler(this.B75_Click);
             this.B75.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B74
             // 
-            this.B74.BackColor = System.Drawing.Color.ForestGreen;
+            this.B74.BackColor = System.Drawing.Color.Silver;
             this.B74.Location = new System.Drawing.Point(326, 311);
             this.B74.Name = "B74";
             this.B74.Size = new System.Drawing.Size(43, 38);
             this.B74.TabIndex = 54;
             this.B74.UseVisualStyleBackColor = false;
-            this.B74.Click += new System.EventHandler(this.B74_Click);
             this.B74.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B73
             // 
-            this.B73.BackColor = System.Drawing.Color.Lime;
+            this.B73.BackColor = System.Drawing.Color.Silver;
             this.B73.Location = new System.Drawing.Point(277, 311);
             this.B73.Name = "B73";
             this.B73.Size = new System.Drawing.Size(43, 38);
             this.B73.TabIndex = 53;
             this.B73.UseVisualStyleBackColor = false;
-            this.B73.Click += new System.EventHandler(this.B73_Click);
             this.B73.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B72
             // 
-            this.B72.BackColor = System.Drawing.Color.ForestGreen;
+            this.B72.BackColor = System.Drawing.Color.Silver;
             this.B72.Location = new System.Drawing.Point(228, 311);
             this.B72.Name = "B72";
             this.B72.Size = new System.Drawing.Size(43, 38);
             this.B72.TabIndex = 52;
             this.B72.UseVisualStyleBackColor = false;
-            this.B72.Click += new System.EventHandler(this.B72_Click);
             this.B72.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B71
             // 
-            this.B71.BackColor = System.Drawing.Color.Lime;
+            this.B71.BackColor = System.Drawing.Color.Silver;
             this.B71.Location = new System.Drawing.Point(179, 311);
             this.B71.Name = "B71";
             this.B71.Size = new System.Drawing.Size(43, 38);
             this.B71.TabIndex = 51;
             this.B71.UseVisualStyleBackColor = false;
-            this.B71.Click += new System.EventHandler(this.B71_Click);
             this.B71.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B90
             // 
-            this.B90.BackColor = System.Drawing.Color.Lime;
+            this.B90.BackColor = System.Drawing.Color.Silver;
             this.B90.Location = new System.Drawing.Point(620, 355);
             this.B90.Name = "B90";
             this.B90.Size = new System.Drawing.Size(43, 38);
             this.B90.TabIndex = 70;
             this.B90.UseVisualStyleBackColor = false;
-            this.B90.Click += new System.EventHandler(this.B90_Click);
             this.B90.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B89
             // 
-            this.B89.BackColor = System.Drawing.Color.ForestGreen;
+            this.B89.BackColor = System.Drawing.Color.Silver;
             this.B89.Location = new System.Drawing.Point(571, 355);
             this.B89.Name = "B89";
             this.B89.Size = new System.Drawing.Size(43, 38);
             this.B89.TabIndex = 69;
             this.B89.UseVisualStyleBackColor = false;
-            this.B89.Click += new System.EventHandler(this.B89_Click);
             this.B89.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B88
             // 
-            this.B88.BackColor = System.Drawing.Color.Lime;
+            this.B88.BackColor = System.Drawing.Color.Silver;
             this.B88.Location = new System.Drawing.Point(522, 355);
             this.B88.Name = "B88";
             this.B88.Size = new System.Drawing.Size(43, 38);
             this.B88.TabIndex = 68;
             this.B88.UseVisualStyleBackColor = false;
-            this.B88.Click += new System.EventHandler(this.B88_Click);
             this.B88.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B87
             // 
-            this.B87.BackColor = System.Drawing.Color.ForestGreen;
+            this.B87.BackColor = System.Drawing.Color.Silver;
             this.B87.Location = new System.Drawing.Point(473, 355);
             this.B87.Name = "B87";
             this.B87.Size = new System.Drawing.Size(43, 38);
             this.B87.TabIndex = 67;
             this.B87.UseVisualStyleBackColor = false;
-            this.B87.Click += new System.EventHandler(this.B87_Click);
             this.B87.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B86
             // 
-            this.B86.BackColor = System.Drawing.Color.Lime;
+            this.B86.BackColor = System.Drawing.Color.Silver;
             this.B86.Location = new System.Drawing.Point(424, 355);
             this.B86.Name = "B86";
             this.B86.Size = new System.Drawing.Size(43, 38);
             this.B86.TabIndex = 66;
             this.B86.UseVisualStyleBackColor = false;
-            this.B86.Click += new System.EventHandler(this.B86_Click);
             this.B86.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B85
             // 
-            this.B85.BackColor = System.Drawing.Color.ForestGreen;
+            this.B85.BackColor = System.Drawing.Color.Silver;
             this.B85.Location = new System.Drawing.Point(375, 355);
             this.B85.Name = "B85";
             this.B85.Size = new System.Drawing.Size(43, 38);
             this.B85.TabIndex = 65;
             this.B85.UseVisualStyleBackColor = false;
-            this.B85.Click += new System.EventHandler(this.B85_Click);
             this.B85.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B84
             // 
-            this.B84.BackColor = System.Drawing.Color.Lime;
+            this.B84.BackColor = System.Drawing.Color.Silver;
             this.B84.Location = new System.Drawing.Point(326, 355);
             this.B84.Name = "B84";
             this.B84.Size = new System.Drawing.Size(43, 38);
             this.B84.TabIndex = 64;
             this.B84.UseVisualStyleBackColor = false;
-            this.B84.Click += new System.EventHandler(this.B84_Click);
             this.B84.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B83
             // 
-            this.B83.BackColor = System.Drawing.Color.ForestGreen;
+            this.B83.BackColor = System.Drawing.Color.Silver;
             this.B83.Location = new System.Drawing.Point(277, 355);
             this.B83.Name = "B83";
             this.B83.Size = new System.Drawing.Size(43, 38);
             this.B83.TabIndex = 63;
             this.B83.UseVisualStyleBackColor = false;
-            this.B83.Click += new System.EventHandler(this.B83_Click);
             this.B83.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B82
             // 
-            this.B82.BackColor = System.Drawing.Color.Lime;
+            this.B82.BackColor = System.Drawing.Color.Silver;
             this.B82.Location = new System.Drawing.Point(228, 355);
             this.B82.Name = "B82";
             this.B82.Size = new System.Drawing.Size(43, 38);
             this.B82.TabIndex = 62;
             this.B82.UseVisualStyleBackColor = false;
-            this.B82.Click += new System.EventHandler(this.B82_Click);
             this.B82.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B81
             // 
-            this.B81.BackColor = System.Drawing.Color.ForestGreen;
+            this.B81.BackColor = System.Drawing.Color.Silver;
             this.B81.Location = new System.Drawing.Point(179, 355);
             this.B81.Name = "B81";
             this.B81.Size = new System.Drawing.Size(43, 38);
             this.B81.TabIndex = 61;
             this.B81.UseVisualStyleBackColor = false;
-            this.B81.Click += new System.EventHandler(this.B81_Click);
             this.B81.MouseDown += new System.Windows.Forms.MouseEventHandler(this.B10_MouseDown);
             // 
             // B100
             // 
-            this.B100.BackColor = System.Drawing.Color.ForestGreen;
+            this.B100.BackColor = System.Drawing.Color.Silver;
             this.B100.Location = new System.Drawing.Point(620, 399);
             this.B100.Name = "B100";
             this.B100.Size = new System.Drawing.Size(43, 38);
@@ -935,7 +886,7 @@
             // 
             // B99
             // 
-            this.B99.BackColor = System.Drawing.Color.Lime;
+            this.B99.BackColor = System.Drawing.Color.Silver;
             this.B99.Location = new System.Drawing.Point(571, 399);
             this.B99.Name = "B99";
             this.B99.Size = new System.Drawing.Size(43, 38);
@@ -946,7 +897,7 @@
             // 
             // B98
             // 
-            this.B98.BackColor = System.Drawing.Color.ForestGreen;
+            this.B98.BackColor = System.Drawing.Color.Silver;
             this.B98.Location = new System.Drawing.Point(522, 399);
             this.B98.Name = "B98";
             this.B98.Size = new System.Drawing.Size(43, 38);
@@ -957,7 +908,7 @@
             // 
             // B97
             // 
-            this.B97.BackColor = System.Drawing.Color.Lime;
+            this.B97.BackColor = System.Drawing.Color.Silver;
             this.B97.Location = new System.Drawing.Point(473, 399);
             this.B97.Name = "B97";
             this.B97.Size = new System.Drawing.Size(43, 38);
@@ -968,7 +919,7 @@
             // 
             // B96
             // 
-            this.B96.BackColor = System.Drawing.Color.ForestGreen;
+            this.B96.BackColor = System.Drawing.Color.Silver;
             this.B96.Location = new System.Drawing.Point(424, 399);
             this.B96.Name = "B96";
             this.B96.Size = new System.Drawing.Size(43, 38);
@@ -979,7 +930,7 @@
             // 
             // B95
             // 
-            this.B95.BackColor = System.Drawing.Color.Lime;
+            this.B95.BackColor = System.Drawing.Color.Silver;
             this.B95.Location = new System.Drawing.Point(375, 399);
             this.B95.Name = "B95";
             this.B95.Size = new System.Drawing.Size(43, 38);
@@ -990,7 +941,7 @@
             // 
             // B94
             // 
-            this.B94.BackColor = System.Drawing.Color.ForestGreen;
+            this.B94.BackColor = System.Drawing.Color.Silver;
             this.B94.Location = new System.Drawing.Point(326, 399);
             this.B94.Name = "B94";
             this.B94.Size = new System.Drawing.Size(43, 38);
@@ -1001,7 +952,7 @@
             // 
             // B93
             // 
-            this.B93.BackColor = System.Drawing.Color.Lime;
+            this.B93.BackColor = System.Drawing.Color.Silver;
             this.B93.Location = new System.Drawing.Point(277, 399);
             this.B93.Name = "B93";
             this.B93.Size = new System.Drawing.Size(43, 38);
@@ -1012,7 +963,7 @@
             // 
             // B92
             // 
-            this.B92.BackColor = System.Drawing.Color.ForestGreen;
+            this.B92.BackColor = System.Drawing.Color.Silver;
             this.B92.Location = new System.Drawing.Point(228, 399);
             this.B92.Name = "B92";
             this.B92.Size = new System.Drawing.Size(43, 38);
@@ -1023,7 +974,7 @@
             // 
             // B91
             // 
-            this.B91.BackColor = System.Drawing.Color.Lime;
+            this.B91.BackColor = System.Drawing.Color.Silver;
             this.B91.Location = new System.Drawing.Point(179, 399);
             this.B91.Name = "B91";
             this.B91.Size = new System.Drawing.Size(43, 38);
@@ -1034,7 +985,7 @@
             // 
             // B20
             // 
-            this.B20.BackColor = System.Drawing.Color.ForestGreen;
+            this.B20.BackColor = System.Drawing.Color.Silver;
             this.B20.Location = new System.Drawing.Point(620, 47);
             this.B20.Name = "B20";
             this.B20.Size = new System.Drawing.Size(43, 38);
@@ -1045,7 +996,7 @@
             // 
             // B19
             // 
-            this.B19.BackColor = System.Drawing.Color.Lime;
+            this.B19.BackColor = System.Drawing.Color.Silver;
             this.B19.Location = new System.Drawing.Point(571, 47);
             this.B19.Name = "B19";
             this.B19.Size = new System.Drawing.Size(43, 38);
@@ -1056,7 +1007,7 @@
             // 
             // B18
             // 
-            this.B18.BackColor = System.Drawing.Color.ForestGreen;
+            this.B18.BackColor = System.Drawing.Color.Silver;
             this.B18.Location = new System.Drawing.Point(522, 47);
             this.B18.Name = "B18";
             this.B18.Size = new System.Drawing.Size(43, 38);
@@ -1067,7 +1018,7 @@
             // 
             // B17
             // 
-            this.B17.BackColor = System.Drawing.Color.Lime;
+            this.B17.BackColor = System.Drawing.Color.Silver;
             this.B17.Location = new System.Drawing.Point(473, 47);
             this.B17.Name = "B17";
             this.B17.Size = new System.Drawing.Size(43, 38);
@@ -1078,7 +1029,7 @@
             // 
             // B16
             // 
-            this.B16.BackColor = System.Drawing.Color.ForestGreen;
+            this.B16.BackColor = System.Drawing.Color.Silver;
             this.B16.Location = new System.Drawing.Point(424, 47);
             this.B16.Name = "B16";
             this.B16.Size = new System.Drawing.Size(43, 38);
@@ -1089,7 +1040,7 @@
             // 
             // B15
             // 
-            this.B15.BackColor = System.Drawing.Color.Lime;
+            this.B15.BackColor = System.Drawing.Color.Silver;
             this.B15.Location = new System.Drawing.Point(375, 47);
             this.B15.Name = "B15";
             this.B15.Size = new System.Drawing.Size(43, 38);
@@ -1100,7 +1051,7 @@
             // 
             // B14
             // 
-            this.B14.BackColor = System.Drawing.Color.ForestGreen;
+            this.B14.BackColor = System.Drawing.Color.Silver;
             this.B14.Location = new System.Drawing.Point(326, 47);
             this.B14.Name = "B14";
             this.B14.Size = new System.Drawing.Size(43, 38);
@@ -1111,7 +1062,7 @@
             // 
             // B13
             // 
-            this.B13.BackColor = System.Drawing.Color.Lime;
+            this.B13.BackColor = System.Drawing.Color.Silver;
             this.B13.Location = new System.Drawing.Point(277, 47);
             this.B13.Name = "B13";
             this.B13.Size = new System.Drawing.Size(43, 38);
@@ -1122,7 +1073,7 @@
             // 
             // B12
             // 
-            this.B12.BackColor = System.Drawing.Color.ForestGreen;
+            this.B12.BackColor = System.Drawing.Color.Silver;
             this.B12.Location = new System.Drawing.Point(228, 47);
             this.B12.Name = "B12";
             this.B12.Size = new System.Drawing.Size(43, 38);
@@ -1133,7 +1084,7 @@
             // 
             // B11
             // 
-            this.B11.BackColor = System.Drawing.Color.Lime;
+            this.B11.BackColor = System.Drawing.Color.Silver;
             this.B11.Location = new System.Drawing.Point(179, 47);
             this.B11.Name = "B11";
             this.B11.Size = new System.Drawing.Size(43, 38);
@@ -1144,7 +1095,7 @@
             // 
             // B10
             // 
-            this.B10.BackColor = System.Drawing.Color.Lime;
+            this.B10.BackColor = System.Drawing.Color.Silver;
             this.B10.Location = new System.Drawing.Point(620, 3);
             this.B10.Name = "B10";
             this.B10.Size = new System.Drawing.Size(43, 38);
@@ -1155,7 +1106,7 @@
             // 
             // B9
             // 
-            this.B9.BackColor = System.Drawing.Color.ForestGreen;
+            this.B9.BackColor = System.Drawing.Color.Silver;
             this.B9.Location = new System.Drawing.Point(571, 3);
             this.B9.Name = "B9";
             this.B9.Size = new System.Drawing.Size(43, 38);
@@ -1166,7 +1117,7 @@
             // 
             // B8
             // 
-            this.B8.BackColor = System.Drawing.Color.Lime;
+            this.B8.BackColor = System.Drawing.Color.Silver;
             this.B8.Location = new System.Drawing.Point(522, 3);
             this.B8.Name = "B8";
             this.B8.Size = new System.Drawing.Size(43, 38);
@@ -1177,7 +1128,7 @@
             // 
             // B7
             // 
-            this.B7.BackColor = System.Drawing.Color.ForestGreen;
+            this.B7.BackColor = System.Drawing.Color.Silver;
             this.B7.Location = new System.Drawing.Point(473, 3);
             this.B7.Name = "B7";
             this.B7.Size = new System.Drawing.Size(43, 38);
@@ -1188,7 +1139,7 @@
             // 
             // B6
             // 
-            this.B6.BackColor = System.Drawing.Color.Lime;
+            this.B6.BackColor = System.Drawing.Color.Silver;
             this.B6.Location = new System.Drawing.Point(424, 3);
             this.B6.Name = "B6";
             this.B6.Size = new System.Drawing.Size(43, 38);
@@ -1199,7 +1150,7 @@
             // 
             // B5
             // 
-            this.B5.BackColor = System.Drawing.Color.ForestGreen;
+            this.B5.BackColor = System.Drawing.Color.Silver;
             this.B5.Location = new System.Drawing.Point(375, 3);
             this.B5.Name = "B5";
             this.B5.Size = new System.Drawing.Size(43, 38);
@@ -1210,7 +1161,7 @@
             // 
             // B4
             // 
-            this.B4.BackColor = System.Drawing.Color.Lime;
+            this.B4.BackColor = System.Drawing.Color.Silver;
             this.B4.Location = new System.Drawing.Point(326, 3);
             this.B4.Name = "B4";
             this.B4.Size = new System.Drawing.Size(43, 38);
@@ -1221,7 +1172,7 @@
             // 
             // B3
             // 
-            this.B3.BackColor = System.Drawing.Color.ForestGreen;
+            this.B3.BackColor = System.Drawing.Color.Silver;
             this.B3.Location = new System.Drawing.Point(277, 3);
             this.B3.Name = "B3";
             this.B3.Size = new System.Drawing.Size(43, 38);
@@ -1232,7 +1183,7 @@
             // 
             // B2
             // 
-            this.B2.BackColor = System.Drawing.Color.Lime;
+            this.B2.BackColor = System.Drawing.Color.Silver;
             this.B2.Location = new System.Drawing.Point(228, 3);
             this.B2.Name = "B2";
             this.B2.Size = new System.Drawing.Size(43, 38);
@@ -1243,7 +1194,7 @@
             // 
             // B1
             // 
-            this.B1.BackColor = System.Drawing.Color.ForestGreen;
+            this.B1.BackColor = System.Drawing.Color.Silver;
             this.B1.Location = new System.Drawing.Point(179, 3);
             this.B1.Name = "B1";
             this.B1.Size = new System.Drawing.Size(43, 38);
@@ -1318,7 +1269,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(135, 355);
+            this.button1.Location = new System.Drawing.Point(202, 319);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(185, 111);
             this.button1.TabIndex = 108;
@@ -1328,7 +1279,7 @@
             // 
             // NoBtn
             // 
-            this.NoBtn.Location = new System.Drawing.Point(463, 355);
+            this.NoBtn.Location = new System.Drawing.Point(509, 319);
             this.NoBtn.Name = "NoBtn";
             this.NoBtn.Size = new System.Drawing.Size(185, 111);
             this.NoBtn.TabIndex = 109;
@@ -1349,7 +1300,7 @@
             // GunPic
             // 
             this.GunPic.Image = global::MindSweeper.Properties.Resources.download__1_1;
-            this.GunPic.Location = new System.Drawing.Point(534, 25);
+            this.GunPic.Location = new System.Drawing.Point(519, 25);
             this.GunPic.Name = "GunPic";
             this.GunPic.Size = new System.Drawing.Size(287, 182);
             this.GunPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1360,20 +1311,21 @@
             // SadPic
             // 
             this.SadPic.Image = global::MindSweeper.Properties.Resources.download__1_;
-            this.SadPic.Location = new System.Drawing.Point(91, 17);
+            this.SadPic.Location = new System.Drawing.Point(26, 3);
             this.SadPic.Name = "SadPic";
             this.SadPic.Size = new System.Drawing.Size(437, 288);
             this.SadPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.SadPic.TabIndex = 110;
             this.SadPic.TabStop = false;
             this.SadPic.Visible = false;
+            this.SadPic.Click += new System.EventHandler(this.SadPic_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::MindSweeper.Properties.Resources.download;
-            this.pictureBox2.Location = new System.Drawing.Point(-1, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(2, 3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(836, 514);
+            this.pictureBox2.Size = new System.Drawing.Size(804, 494);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 107;
             this.pictureBox2.TabStop = false;
@@ -1393,7 +1345,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 509);
+            this.ClientSize = new System.Drawing.Size(806, 518);
             this.Controls.Add(this.GunPic);
             this.Controls.Add(this.SadPic);
             this.Controls.Add(this.NoBtn);
@@ -1506,7 +1458,7 @@
             this.Controls.Add(this.B22);
             this.Controls.Add(this.B21);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "o[";
             ((System.ComponentModel.ISupportInitialize)(this.GunPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SadPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
