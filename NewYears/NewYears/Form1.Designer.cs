@@ -34,7 +34,7 @@
             this.Bit2 = new System.Windows.Forms.TextBox();
             this.Bit1 = new System.Windows.Forms.TextBox();
             this.Line1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.ResetBtn1 = new System.Windows.Forms.Button();
             this.Bit6 = new System.Windows.Forms.TextBox();
             this.Bit7 = new System.Windows.Forms.TextBox();
             this.Bit8 = new System.Windows.Forms.TextBox();
@@ -63,6 +63,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.Line2 = new System.Windows.Forms.Label();
             this.Line3 = new System.Windows.Forms.Label();
+            this.ResetBtn2 = new System.Windows.Forms.Button();
+            this.ResetBtn3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Bit5
@@ -129,15 +131,15 @@
             this.Line1.TabIndex = 6;
             this.Line1.Text = "0";
             // 
-            // button1
+            // ResetBtn1
             // 
-            this.button1.Location = new System.Drawing.Point(454, 197);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 25);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Restart";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.ResetBtn1.Location = new System.Drawing.Point(454, 212);
+            this.ResetBtn1.Name = "ResetBtn1";
+            this.ResetBtn1.Size = new System.Drawing.Size(75, 25);
+            this.ResetBtn1.TabIndex = 8;
+            this.ResetBtn1.Text = "Restart";
+            this.ResetBtn1.UseVisualStyleBackColor = true;
+            this.ResetBtn1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Bit6
             // 
@@ -174,7 +176,7 @@
             // 
             // ConfigBTN
             // 
-            this.ConfigBTN.Location = new System.Drawing.Point(454, 168);
+            this.ConfigBTN.Location = new System.Drawing.Point(535, 186);
             this.ConfigBTN.Name = "ConfigBTN";
             this.ConfigBTN.Size = new System.Drawing.Size(75, 23);
             this.ConfigBTN.TabIndex = 12;
@@ -390,27 +392,27 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(277, 273);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 16);
+            this.label2.Size = new System.Drawing.Size(46, 16);
             this.label2.TabIndex = 32;
-            this.label2.Text = "Line1";
+            this.label2.Text = "Line 1)";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(277, 289);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 16);
+            this.label1.Size = new System.Drawing.Size(46, 16);
             this.label1.TabIndex = 33;
-            this.label1.Text = "Line 2";
+            this.label1.Text = "Line 2)";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(277, 305);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 16);
+            this.label3.Size = new System.Drawing.Size(46, 16);
             this.label3.TabIndex = 34;
-            this.label3.Text = "Line 3";
+            this.label3.Text = "Line 3)";
             // 
             // Line2
             // 
@@ -430,11 +432,33 @@
             this.Line3.TabIndex = 36;
             this.Line3.Text = "0";
             // 
+            // ResetBtn2
+            // 
+            this.ResetBtn2.Location = new System.Drawing.Point(454, 184);
+            this.ResetBtn2.Name = "ResetBtn2";
+            this.ResetBtn2.Size = new System.Drawing.Size(75, 25);
+            this.ResetBtn2.TabIndex = 37;
+            this.ResetBtn2.Text = "Restart";
+            this.ResetBtn2.UseVisualStyleBackColor = true;
+            this.ResetBtn2.Click += new System.EventHandler(this.ResetBtn2_Click);
+            // 
+            // ResetBtn3
+            // 
+            this.ResetBtn3.Location = new System.Drawing.Point(454, 156);
+            this.ResetBtn3.Name = "ResetBtn3";
+            this.ResetBtn3.Size = new System.Drawing.Size(75, 25);
+            this.ResetBtn3.TabIndex = 38;
+            this.ResetBtn3.Text = "Restart";
+            this.ResetBtn3.UseVisualStyleBackColor = true;
+            this.ResetBtn3.Click += new System.EventHandler(this.ResetBtn3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ResetBtn3);
+            this.Controls.Add(this.ResetBtn2);
             this.Controls.Add(this.Line3);
             this.Controls.Add(this.Line2);
             this.Controls.Add(this.label3);
@@ -463,7 +487,7 @@
             this.Controls.Add(this.Bit8);
             this.Controls.Add(this.Bit7);
             this.Controls.Add(this.Bit6);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ResetBtn1);
             this.Controls.Add(this.Line1);
             this.Controls.Add(this.Bit1);
             this.Controls.Add(this.Bit2);
@@ -484,7 +508,7 @@
         private System.Windows.Forms.TextBox Bit2;
         private System.Windows.Forms.TextBox Bit1;
         private System.Windows.Forms.Label Line1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button ResetBtn1;
         private System.Windows.Forms.TextBox Bit6;
         private System.Windows.Forms.TextBox Bit7;
         private System.Windows.Forms.TextBox Bit8;
@@ -513,6 +537,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label Line2;
         private System.Windows.Forms.Label Line3;
+        private System.Windows.Forms.Button ResetBtn2;
+        private System.Windows.Forms.Button ResetBtn3;
     }
 }
 

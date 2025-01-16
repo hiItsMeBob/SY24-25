@@ -30,7 +30,6 @@ namespace NewYears
                 total[0] += 1;
             }
         }
-
         private void Bit2_TextChanged(object sender, EventArgs e)
         {
             if (Bit2.Text.Equals("1"))
@@ -39,7 +38,6 @@ namespace NewYears
                 total[0] += 2;
             }
         }
-
         private void Bit3_TextChanged(object sender, EventArgs e)
         {
             if (Bit3.Text.Equals("1"))
@@ -48,7 +46,6 @@ namespace NewYears
             total[0] += 4;
             }
         }
-
         private void Bit4_TextChanged(object sender, EventArgs e)
         {
             if (Bit4.Text.Equals("1"))
@@ -73,7 +70,6 @@ namespace NewYears
                 total[0] += 32;
             }
         }
-
         private void Bit7_TextChanged(object sender, EventArgs e)
         {
             if (Bit7.Text.Equals("1"))
@@ -82,7 +78,6 @@ namespace NewYears
                 total[0] += 64;
             }
         }
-
         private void Bit8_TextChanged(object sender, EventArgs e)
         {
             if (Bit8.Text.Equals("1"))
@@ -99,7 +94,6 @@ namespace NewYears
                 total[1] += 1;
             }
         }
-
         private void Bit10_TextChanged(object sender, EventArgs e)
         {
             if (Bit10.Text.Equals("1"))
@@ -108,7 +102,6 @@ namespace NewYears
                 total[1] += 2;
             }
         }
-
         private void Bit11_TextChanged(object sender, EventArgs e)
         {
             if (Bit11.Text.Equals("1"))
@@ -117,7 +110,6 @@ namespace NewYears
                 total[1] += 4;
             }
         }
-
         private void Bit12_TextChanged(object sender, EventArgs e)
         {
             if (Bit12.Text.Equals("1"))
@@ -126,7 +118,6 @@ namespace NewYears
                 total[1] += 8;
             }
         }
-
         private void Bit13_TextChanged(object sender, EventArgs e)
         {
             if (Bit13.Text.Equals("1"))
@@ -135,7 +126,6 @@ namespace NewYears
                 total[1] += 16;
             }
         }
-
         private void Bit14_TextChanged(object sender, EventArgs e)
         {
             if (Bit14.Text.Equals("1"))
@@ -144,7 +134,6 @@ namespace NewYears
                 total[1] += 32;
             }
         }
-
         private void Bit15_TextChanged(object sender, EventArgs e)
         {
             if (Bit15.Text.Equals("1"))
@@ -153,7 +142,6 @@ namespace NewYears
                 total[1] += 64;
             }
         }
-
         private void Bit16_TextChanged(object sender, EventArgs e)
         {
             if (Bit16.Text.Equals("1"))
@@ -162,7 +150,6 @@ namespace NewYears
                 total[1] += 144;
             }
         }
-
         private void Bit17_TextChanged(object sender, EventArgs e)
         {
             if (Bit17.Text.Equals("1"))
@@ -171,7 +158,6 @@ namespace NewYears
                 total[2] += 1;
             }
         }
-
         private void Bit18_TextChanged(object sender, EventArgs e)
         {
             if (Bit18.Text.Equals("1"))
@@ -180,7 +166,6 @@ namespace NewYears
                 total[2] += 2;
             }
         }
-
         private void Bit19_TextChanged(object sender, EventArgs e)
         {
             if (Bit19.Text.Equals("1"))
@@ -189,7 +174,6 @@ namespace NewYears
                 total[2] += 4;
             }
         }
-
         private void Bit20_TextChanged(object sender, EventArgs e)
         {
             if (Bit20.Text.Equals("1"))
@@ -199,7 +183,6 @@ namespace NewYears
             }
 
         }
-
         private void Bit21_TextChanged(object sender, EventArgs e)
         {
             if (Bit21.Text.Equals("1"))
@@ -209,7 +192,6 @@ namespace NewYears
             }
 
         }
-
         private void Bit22_TextChanged(object sender, EventArgs e)
         {
             if (Bit22.Text.Equals("1"))
@@ -218,7 +200,6 @@ namespace NewYears
                 total[2] += 32;
             }
         }
-
         private void Bit23_TextChanged(object sender, EventArgs e)
         {
             if (Bit23.Text.Equals("1"))
@@ -228,7 +209,6 @@ namespace NewYears
             }
 
         }
-
         private void Bit24_TextChanged(object sender, EventArgs e)
         {
             if (Bit24.Text.Equals("1"))
@@ -238,15 +218,14 @@ namespace NewYears
             }
 
         }
-
         /// ///////////////////////////////////////////////////CONVIG BTN/RESET BTN///////////////////////////////////////////////////
 
         private void button1_Click(object sender, EventArgs e)
         {
             //Line
             Line1.Text = "0";
-            Line2.Text = "0";
-            Line3.Text = "0";
+          
+           
             //Bits
             Bit1.Text = "0";
             Bit2.Text = "0";
@@ -256,6 +235,20 @@ namespace NewYears
             Bit6.Text = "0";
             Bit7.Text = "0";
             Bit8.Text = "0";
+           
+          
+            //Int
+            total[0] = 0;
+          
+          
+
+        }
+        private void ResetBtn2_Click(object sender, EventArgs e)
+        {       
+            //Line
+            Line2.Text = "0";
+          
+            //Bits
             Bit9.Text = "0";
             Bit10.Text = "0";
             Bit11.Text = "0";
@@ -264,6 +257,17 @@ namespace NewYears
             Bit14.Text = "0";
             Bit15.Text = "0";
             Bit16.Text = "0";
+            
+            //Int
+            total[1] = 0;
+        }
+
+        private void ResetBtn3_Click(object sender, EventArgs e)
+        {
+            //Line
+            Line3.Text = "0";
+
+            //Bits
             Bit17.Text = "0";
             Bit18.Text = "0";
             Bit19.Text = "0";
@@ -272,8 +276,9 @@ namespace NewYears
             Bit22.Text = "0";
             Bit23.Text = "0";
             Bit24.Text = "0";
+            
             //Int
-            total[0] = 0;
+            total[2] = 0;
         }
         /// ///////////////////////////////////////////////////Changes The Lable And Shows Num///////////////////////////////////////////////////
 
@@ -296,6 +301,8 @@ namespace NewYears
                 ((TextBox)sender).Text = "1";
             }
         }
+
+      
 
         //test
     }
