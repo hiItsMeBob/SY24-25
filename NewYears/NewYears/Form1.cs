@@ -219,7 +219,6 @@ namespace NewYears
 
         }
         /// ///////////////////////////////////////////////////CONVIG BTN/RESET BTN///////////////////////////////////////////////////
-
         private void button1_Click(object sender, EventArgs e)
         {
             //Line
@@ -261,7 +260,6 @@ namespace NewYears
             //Int
             total[1] = 0;
         }
-
         private void ResetBtn3_Click(object sender, EventArgs e)
         {
             //Line
@@ -281,7 +279,6 @@ namespace NewYears
             total[2] = 0;
         }
         /// ///////////////////////////////////////////////////Changes The Lable And Shows Num///////////////////////////////////////////////////
-
         private void ConfigBTN_Click(object sender, EventArgs e)
         {
             Line1.Text = total[0].ToString();
@@ -289,7 +286,6 @@ namespace NewYears
             Line3.Text= total[2].ToString();
         }
         /// ///////////////////////////////////////////////////This Makes It To Click And Chnage///////////////////////////////////////////////////
-
         private void Bit24_MouseDown(object sender, MouseEventArgs e)
         {
             if (((TextBox)sender).Text == "1")
@@ -304,6 +300,6 @@ namespace NewYears
 
       
 
-        //test
+        
     }
 }
