@@ -66,6 +66,8 @@
             this.ResetBtn2 = new System.Windows.Forms.Button();
             this.ResetBtn3 = new System.Windows.Forms.Button();
             this.ResetAllBtn = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Bit5
@@ -463,8 +465,79 @@
             this.ResetAllBtn.UseVisualStyleBackColor = true;
             this.ResetAllBtn.Click += new System.EventHandler(this.ResetAllBtn_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(277, 321);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(42, 16);
+            this.label4.TabIndex = 40;
+            this.label4.Text = "Total)";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(335, 321);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(14, 16);
+            this.label5.TabIndex = 41;
+            this.label5.Text = "0";
+            // 
             // Form1
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;this.ClientSize = new System.Drawing.Size(800, 450);this.Controls.Add(this.ResetAllBtn);this.Controls.Add(this.ResetBtn3);this.Controls.Add(this.ResetBtn2);this.Controls.Add(this.Line3);this.Controls.Add(this.Line2);this.Controls.Add(this.label3);this.Controls.Add(this.label1);this.Controls.Add(this.label2);this.Controls.Add(this.RanLBL3);this.Controls.Add(this.RanLBL1);this.Controls.Add(this.RanLBL);this.Controls.Add(this.Bit24);this.Controls.Add(this.Bit23);this.Controls.Add(this.Bit22);this.Controls.Add(this.Bit17);this.Controls.Add(this.Bit18);this.Controls.Add(this.Bit19);this.Controls.Add(this.Bit20);this.Controls.Add(this.Bit21);this.Controls.Add(this.Bit16);this.Controls.Add(this.Bit15);this.Controls.Add(this.Bit14);this.Controls.Add(this.Bit9);this.Controls.Add(this.Bit10);this.Controls.Add(this.Bit11);this.Controls.Add(this.Bit12);this.Controls.Add(this.Bit13);this.Controls.Add(this.ConfigBTN);this.Controls.Add(this.Bit8);this.Controls.Add(this.Bit7);this.Controls.Add(this.Bit6);this.Controls.Add(this.ResetBtn1);this.Controls.Add(this.Line1);this.Controls.Add(this.Bit1);this.Controls.Add(this.Bit2);this.Controls.Add(this.Bit3);this.Controls.Add(this.Bit4);this.Controls.Add(this.Bit5);this.Name = "Form1";this.Text = "Form1";this.ResumeLayout(false);this.PerformLayout();}
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.ResetAllBtn);
+            this.Controls.Add(this.ResetBtn3);
+            this.Controls.Add(this.ResetBtn2);
+            this.Controls.Add(this.Line3);
+            this.Controls.Add(this.Line2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.RanLBL3);
+            this.Controls.Add(this.RanLBL1);
+            this.Controls.Add(this.RanLBL);
+            this.Controls.Add(this.Bit24);
+            this.Controls.Add(this.Bit23);
+            this.Controls.Add(this.Bit22);
+            this.Controls.Add(this.Bit17);
+            this.Controls.Add(this.Bit18);
+            this.Controls.Add(this.Bit19);
+            this.Controls.Add(this.Bit20);
+            this.Controls.Add(this.Bit21);
+            this.Controls.Add(this.Bit16);
+            this.Controls.Add(this.Bit15);
+            this.Controls.Add(this.Bit14);
+            this.Controls.Add(this.Bit9);
+            this.Controls.Add(this.Bit10);
+            this.Controls.Add(this.Bit11);
+            this.Controls.Add(this.Bit12);
+            this.Controls.Add(this.Bit13);
+            this.Controls.Add(this.ConfigBTN);
+            this.Controls.Add(this.Bit8);
+            this.Controls.Add(this.Bit7);
+            this.Controls.Add(this.Bit6);
+            this.Controls.Add(this.ResetBtn1);
+            this.Controls.Add(this.Line1);
+            this.Controls.Add(this.Bit1);
+            this.Controls.Add(this.Bit2);
+            this.Controls.Add(this.Bit3);
+            this.Controls.Add(this.Bit4);
+            this.Controls.Add(this.Bit5);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+}
         #endregion
-        private System.Windows.Forms.TextBox Bit5;private System.Windows.Forms.TextBox Bit4;private System.Windows.Forms.TextBox Bit3;private System.Windows.Forms.TextBox Bit2;private System.Windows.Forms.TextBox Bit1;private System.Windows.Forms.Label Line1;private System.Windows.Forms.Button ResetBtn1;private System.Windows.Forms.TextBox Bit6;private System.Windows.Forms.TextBox Bit7;private System.Windows.Forms.TextBox Bit8;private System.Windows.Forms.Button ConfigBTN;private System.Windows.Forms.TextBox Bit16;private System.Windows.Forms.TextBox Bit15;private System.Windows.Forms.TextBox Bit14;private System.Windows.Forms.TextBox Bit9;private System.Windows.Forms.TextBox Bit10;private System.Windows.Forms.TextBox Bit11;private System.Windows.Forms.TextBox Bit12;private System.Windows.Forms.TextBox Bit13;private System.Windows.Forms.TextBox Bit24;private System.Windows.Forms.TextBox Bit23;private System.Windows.Forms.TextBox Bit22;private System.Windows.Forms.TextBox Bit17;private System.Windows.Forms.TextBox Bit18;private System.Windows.Forms.TextBox Bit19;private System.Windows.Forms.TextBox Bit20;private System.Windows.Forms.TextBox Bit21;private System.Windows.Forms.Label RanLBL;private System.Windows.Forms.Label RanLBL1;private System.Windows.Forms.Label RanLBL3;private System.Windows.Forms.Label label2;private System.Windows.Forms.Label label1;private System.Windows.Forms.Label label3;private System.Windows.Forms.Label Line2;private System.Windows.Forms.Label Line3;private System.Windows.Forms.Button ResetBtn2;private System.Windows.Forms.Button ResetBtn3;private System.Windows.Forms.Button ResetAllBtn;}}
+        private System.Windows.Forms.TextBox Bit5;private System.Windows.Forms.TextBox Bit4;private System.Windows.Forms.TextBox Bit3;private System.Windows.Forms.TextBox Bit2;private System.Windows.Forms.TextBox Bit1;private System.Windows.Forms.Label Line1;private System.Windows.Forms.Button ResetBtn1;private System.Windows.Forms.TextBox Bit6;private System.Windows.Forms.TextBox Bit7;private System.Windows.Forms.TextBox Bit8;private System.Windows.Forms.Button ConfigBTN;private System.Windows.Forms.TextBox Bit16;private System.Windows.Forms.TextBox Bit15;private System.Windows.Forms.TextBox Bit14;private System.Windows.Forms.TextBox Bit9;private System.Windows.Forms.TextBox Bit10;private System.Windows.Forms.TextBox Bit11;private System.Windows.Forms.TextBox Bit12;private System.Windows.Forms.TextBox Bit13;private System.Windows.Forms.TextBox Bit24;private System.Windows.Forms.TextBox Bit23;private System.Windows.Forms.TextBox Bit22;private System.Windows.Forms.TextBox Bit17;private System.Windows.Forms.TextBox Bit18;private System.Windows.Forms.TextBox Bit19;private System.Windows.Forms.TextBox Bit20;private System.Windows.Forms.TextBox Bit21;private System.Windows.Forms.Label RanLBL;private System.Windows.Forms.Label RanLBL1;private System.Windows.Forms.Label RanLBL3;private System.Windows.Forms.Label label2;private System.Windows.Forms.Label label1;private System.Windows.Forms.Label label3;private System.Windows.Forms.Label Line2;private System.Windows.Forms.Label Line3;private System.Windows.Forms.Button ResetBtn2;private System.Windows.Forms.Button ResetBtn3;private System.Windows.Forms.Button ResetAllBtn;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+    }
+}
 
