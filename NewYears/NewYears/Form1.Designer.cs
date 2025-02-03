@@ -68,6 +68,8 @@
             this.ResetAllBtn = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.shiftLeftBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Bit5
@@ -468,7 +470,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(277, 321);
+            this.label4.Location = new System.Drawing.Point(281, 321);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(42, 16);
             this.label4.TabIndex = 40;
@@ -483,11 +485,32 @@
             this.label5.TabIndex = 41;
             this.label5.Text = "0";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(396, 289);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 42;
+            this.button1.Text = "sub";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // shiftLeftBtn
+            // 
+            this.shiftLeftBtn.Location = new System.Drawing.Point(257, 123);
+            this.shiftLeftBtn.Name = "shiftLeftBtn";
+            this.shiftLeftBtn.Size = new System.Drawing.Size(75, 23);
+            this.shiftLeftBtn.TabIndex = 43;
+            this.shiftLeftBtn.Text = "Shift Left ";
+            this.shiftLeftBtn.UseVisualStyleBackColor = true;
+            this.shiftLeftBtn.Click += new System.EventHandler(this.shiftLeftBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.shiftLeftBtn);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.ResetAllBtn);
@@ -538,6 +561,8 @@
         private System.Windows.Forms.TextBox Bit5;private System.Windows.Forms.TextBox Bit4;private System.Windows.Forms.TextBox Bit3;private System.Windows.Forms.TextBox Bit2;private System.Windows.Forms.TextBox Bit1;private System.Windows.Forms.Label Line1;private System.Windows.Forms.Button ResetBtn1;private System.Windows.Forms.TextBox Bit6;private System.Windows.Forms.TextBox Bit7;private System.Windows.Forms.TextBox Bit8;private System.Windows.Forms.Button ConfigBTN;private System.Windows.Forms.TextBox Bit16;private System.Windows.Forms.TextBox Bit15;private System.Windows.Forms.TextBox Bit14;private System.Windows.Forms.TextBox Bit9;private System.Windows.Forms.TextBox Bit10;private System.Windows.Forms.TextBox Bit11;private System.Windows.Forms.TextBox Bit12;private System.Windows.Forms.TextBox Bit13;private System.Windows.Forms.TextBox Bit24;private System.Windows.Forms.TextBox Bit23;private System.Windows.Forms.TextBox Bit22;private System.Windows.Forms.TextBox Bit17;private System.Windows.Forms.TextBox Bit18;private System.Windows.Forms.TextBox Bit19;private System.Windows.Forms.TextBox Bit20;private System.Windows.Forms.TextBox Bit21;private System.Windows.Forms.Label RanLBL;private System.Windows.Forms.Label RanLBL1;private System.Windows.Forms.Label RanLBL3;private System.Windows.Forms.Label label2;private System.Windows.Forms.Label label1;private System.Windows.Forms.Label label3;private System.Windows.Forms.Label Line2;private System.Windows.Forms.Label Line3;private System.Windows.Forms.Button ResetBtn2;private System.Windows.Forms.Button ResetBtn3;private System.Windows.Forms.Button ResetAllBtn;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button shiftLeftBtn;
     }
 }
 
